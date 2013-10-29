@@ -28,13 +28,12 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-		final Button btn = (Button) findViewById(R.id.buttonCalculate);
-		btn.setOnClickListener(new View.OnClickListener()
+		findViewById(R.id.buttonCalculate).setOnClickListener(new View.OnClickListener()
 		{
 			@Override
 			public void onClick(View view)
 			{
-				Toast.makeText(MainActivity.this, "Hello! Is it me you're looking for?", Toast.LENGTH_LONG).show();
+				Toast.makeText(MainActivity.this, "Hello! Is it me you're looking for?", Toast.LENGTH_SHORT).show();
 			}
 		});
 
