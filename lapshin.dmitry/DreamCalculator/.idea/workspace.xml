@@ -31,7 +31,7 @@
     <ignored path="DreamCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.xml" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383051015699" ignored="false" />
-    <file path="/Dummy.txt" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383063530586" ignored="false" />
+    <file path="/Dummy.txt" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383063539980" ignored="false" />
     <file path="/MainActivity.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383063284902" ignored="false" />
     <file path="/Calculator.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383062519706" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -493,7 +493,11 @@
       <created>1383063536224</created>
       <updated>1383063536224</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Starting calculations">
+      <created>1383063541355</created>
+      <updated>1383063541355</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
