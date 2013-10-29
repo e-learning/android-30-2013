@@ -19,10 +19,6 @@ public class Calculator
 
 		int pos;
 
-		pos = S.indexOf('^');
-		if (pos != -1)
-			return Math.pow(Calc(S.substring(0, pos)), Calc(S.substring(pos + 1, S.length())));
-
 		pos = S.indexOf('+');
 		if (pos != -1)
 			return Calc(S.substring(0, pos)) + Calc(S.substring(pos + 1, S.length()));
@@ -36,6 +32,10 @@ public class Calculator
 		pos = S.indexOf('/');
 		if (pos != -1)
 			return Calc(S.substring(0, pos)) / Calc(S.substring(pos + 1, S.length()));
+
+		pos = S.indexOf('^');
+		if (pos != -1)
+			return Math.pow(Calc(S.substring(0, pos)), Calc(S.substring(pos + 1, S.length())));
 
 		return Double.parseDouble(S);
 	}
