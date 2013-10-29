@@ -73,9 +73,9 @@
         </TableRow>
         <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2"
                   android:id="@+id/tableRow3">
-            <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="("
+            <Button android:layout_width="fill_parent" android:layout_height="fill_parent"
                     android:id="@+id/buttonBraceLeft" android:layout_weight="1" android:layout_column="0"/>
-            <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text=")"
+            <Button android:layout_width="fill_parent" android:layout_height="fill_parent"
                     android:id="@+id/buttonBraceRight" android:layout_weight="1" android:layout_column="1"/>
             <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="^"
                     android:id="@+id/buttonPower" android:layout_column="2" android:layout_weight="1"/>

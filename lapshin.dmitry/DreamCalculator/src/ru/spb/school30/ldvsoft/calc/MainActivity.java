@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import static ru.spb.school30.ldvsoft.calc.R.id.*;
 
@@ -72,5 +71,6 @@ public class MainActivity extends Activity
 		findViewById(buttonSubtract).setOnClickListener(digitButtonListener);
 		findViewById(buttonMultiply).setOnClickListener(digitButtonListener);
 		findViewById(buttonDivide  ).setOnClickListener(digitButtonListener);
+		findViewById(buttonPower   ).setOnClickListener(digitButtonListener);
 	}
 }
