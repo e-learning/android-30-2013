@@ -26,15 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DreamCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.xml" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383051015699" ignored="false" />
-    <file path="/Dummy.txt" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383064016841" ignored="false" />
+    <file path="/Dummy.txt" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383064066229" ignored="false" />
     <file path="/MainActivity.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383063979891" ignored="false" />
     <file path="/Calculator.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383064058479" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,11 +111,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.32425067">
+            <state line="22" column="22" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#926#1324#0" expanded="true" />
                 <element signature="e#1319#1320#0" expanded="true" />
                 <element signature="e#1375#1519#0" expanded="true" />
@@ -128,10 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Calculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="48" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+            <state line="7" column="48" selection-start="172" selection-end="172" vertical-scroll-proportion="0.32425067">
               <folding />
             </state>
           </provider>
@@ -503,7 +501,11 @@
       <created>1383063547404</created>
       <updated>1383063547404</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Power">
+      <created>1383064070895</created>
+      <updated>1383064070895</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -625,22 +627,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="48" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.32425067">
+        <state line="22" column="22" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#926#1324#0" expanded="true" />
             <element signature="e#1319#1320#0" expanded="true" />
             <element signature="e#1375#1519#0" expanded="true" />
             <element signature="e#1514#1515#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="48" selection-start="172" selection-end="172" vertical-scroll-proportion="0.32425067">
+          <folding />
         </state>
       </provider>
     </entry>
