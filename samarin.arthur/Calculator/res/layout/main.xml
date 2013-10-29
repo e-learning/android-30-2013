@@ -10,7 +10,7 @@
             android:layout_weight="1">
 
         <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:text="@string/textNumViewDefault"
                 android:id="@+id/textView"
@@ -19,7 +19,7 @@
                 android:editable="false"
                 android:gravity="center_vertical|right"
                 android:textSize="40sp"
-                android:paddingRight="10sp"/>
+                android:paddingRight="10sp" android:lines="1"/>
     </TableRow>
 
     <TableRow
@@ -208,6 +208,19 @@
                 android:text="@string/textDivide"
                 android:id="@+id/buttonDivide"
                 android:layout_column="3"
+                android:layout_weight="0.25"/>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tableRow4"
+              android:layout_weight="1">
+        <Button android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/textPlusMinus"
+                android:id="@+id/buttonPlusMinus" android:layout_weight="0.25"/>
+        <Button android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/textPow"
+                android:id="@+id/buttonPow" android:layout_column="1" android:layout_weight="0.25"/>
+        <Button android:layout_width="wrap_content" android:layout_height="fill_parent"
+                android:text="@string/textLog" android:id="@+id/buttonLog" android:layout_column="2"
+                android:layout_weight="0.25"/>
+        <Button android:layout_width="wrap_content" android:layout_height="fill_parent"
+                android:text="@string/textCalculate" android:id="@+id/buttonCalculate" android:layout_column="3"
                 android:layout_weight="0.25"/>
     </TableRow>
 </TableLayout>

@@ -22,4 +22,9 @@
     <string name="textMemoryAdd">M+</string>
     <string name="textMemoryReturn">MR</string>
     <string name="textMemoryClear">MC</string>
+    <string name="textPowMinusOne">1/x</string>
+    <string name="textPow">**</string>
+    <string name="textLog">log</string>
+    <string name="textCalculate">=</string>
+    <string name="textPlusMinus">+/-</string>
 </resources>
