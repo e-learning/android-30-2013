@@ -35,20 +35,42 @@ public class MainActivity extends Activity
 			@Override
 			public void onClick(View view)
 			{
-				Toast.makeText(MainActivity.this, "Hello! Is it me you're looking for?", Toast.LENGTH_SHORT).show();
+				String expression = ((TextView) findViewById(editText)).getText().toString();
+				try
+				{
+					expression = Double.toString(Calculator.Calc(expression));
+				}
+				catch (Exception E)
+				{
+					expression = "ERROR: " + E.toString();
+				}
+				((TextView) findViewById(editText)).setText(expression);
 			}
 		});
 
-		findViewById(button0  ).setOnClickListener(digitButtonListener);
-		findViewById(button1  ).setOnClickListener(digitButtonListener);
-		findViewById(button2  ).setOnClickListener(digitButtonListener);
-		findViewById(button3  ).setOnClickListener(digitButtonListener);
-		findViewById(button4  ).setOnClickListener(digitButtonListener);
-		findViewById(button5  ).setOnClickListener(digitButtonListener);
-		findViewById(button6  ).setOnClickListener(digitButtonListener);
-		findViewById(button7  ).setOnClickListener(digitButtonListener);
-		findViewById(button8  ).setOnClickListener(digitButtonListener);
-		findViewById(button9  ).setOnClickListener(digitButtonListener);
+		findViewById(buttonClear).setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View view)
+			{
+				((TextView) findViewById(editText)).setText("");
+			}
+		});
+
+		findViewById(button0).setOnClickListener(digitButtonListener);
+		findViewById(button1).setOnClickListener(digitButtonListener);
+		findViewById(button2).setOnClickListener(digitButtonListener);
+		findViewById(button3).setOnClickListener(digitButtonListener);
+		findViewById(button4).setOnClickListener(digitButtonListener);
+		findViewById(button5).setOnClickListener(digitButtonListener);
+		findViewById(button6).setOnClickListener(digitButtonListener);
+		findViewById(button7).setOnClickListener(digitButtonListener);
+		findViewById(button8).setOnClickListener(digitButtonListener);
+		findViewById(button9).setOnClickListener(digitButtonListener);
 		findViewById(buttonDot).setOnClickListener(digitButtonListener);
+		findViewById(buttonAdd     ).setOnClickListener(digitButtonListener);
+		findViewById(buttonSubtract).setOnClickListener(digitButtonListener);
+		findViewById(buttonMultiply).setOnClickListener(digitButtonListener);
+		findViewById(buttonDivide  ).setOnClickListener(digitButtonListener);
 	}
 }

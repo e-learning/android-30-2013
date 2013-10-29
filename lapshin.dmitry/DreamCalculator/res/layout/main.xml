@@ -80,7 +80,7 @@
             <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="^"
                     android:id="@+id/buttonPower" android:layout_column="2" android:layout_weight="1"/>
             <Button android:layout_width="fill_parent" android:layout_height="fill_parent"
-                    android:id="@+id/buttonAns" android:layout_column="3" android:layout_weight="1" android:text="."/>
+                    android:id="@+id/buttonClear" android:layout_column="3" android:layout_weight="1" android:text="C"/>
         </TableRow>
     </TableLayout>
     <TableLayout

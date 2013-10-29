@@ -9,11 +9,30 @@ package ru.spb.school30.ldvsoft.calc;
  */
 public class Calculator
 {
-	private final static double Calc(String S)
+	public final static double Calc(String S) throws Exception
 	{
 		while (S.charAt(0) == '(' && S.charAt(S.length() - 1) == ')')
 			S = S.substring(1, S.length() - 1);
 
-		return 0;
+		if (S.charAt(0) == '(' || S.charAt(S.length() - 1) == ')')
+			throw new Exception("Syntax error");
+
+		int pos;
+
+		pos = S.indexOf('+');
+		if (pos != -1)
+			return Calc(S.substring(0, pos)) + Calc(S.substring(pos + 1, S.length()));
+		pos = S.indexOf('-');
+		if (pos != -1)
+			return Calc(S.substring(0, pos)) - Calc(S.substring(pos + 1, S.length()));
+
+		pos = S.indexOf('*');
+		if (pos != -1)
+			return Calc(S.substring(0, pos)) * Calc(S.substring(pos + 1, S.length()));
+		pos = S.indexOf('/');
+		if (pos != -1)
+			return Calc(S.substring(0, pos)) / Calc(S.substring(pos + 1, S.length()));
+
+		return Double.parseDouble(S);
 	}
 }
