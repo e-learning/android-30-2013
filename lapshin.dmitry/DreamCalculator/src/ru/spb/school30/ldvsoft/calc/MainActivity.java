@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static ru.spb.school30.ldvsoft.calc.R.id.*;
+
 public class MainActivity extends Activity
 {
     private class DigitButtonListener implements View.OnClickListener
@@ -15,7 +17,7 @@ public class MainActivity extends Activity
 		public void onClick(View view)
 		{
 			final Button sender = (Button) view;
-			final TextView field = (TextView) findViewById(R.id.editText);
+			final TextView field = (TextView) findViewById(editText);
 			field.setText(field.getText().toString() + sender.getText().toString());
 		}
 	}
@@ -28,7 +30,7 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-		findViewById(R.id.buttonCalculate).setOnClickListener(new View.OnClickListener()
+		findViewById(buttonCalculate).setOnClickListener(new View.OnClickListener()
 		{
 			@Override
 			public void onClick(View view)
@@ -37,16 +39,16 @@ public class MainActivity extends Activity
 			}
 		});
 
-		findViewById(R.id.button0  ).setOnClickListener(digitButtonListener);
-		findViewById(R.id.button1  ).setOnClickListener(digitButtonListener);
-		findViewById(R.id.button2  ).setOnClickListener(digitButtonListener);
-		findViewById(R.id.button3  ).setOnClickListener(digitButtonListener);
-		findViewById(R.id.button4  ).setOnClickListener(digitButtonListener);
-		findViewById(R.id.button5  ).setOnClickListener(digitButtonListener);
-		findViewById(R.id.button6  ).setOnClickListener(digitButtonListener);
-		findViewById(R.id.button7  ).setOnClickListener(digitButtonListener);
-		findViewById(R.id.button8  ).setOnClickListener(digitButtonListener);
-		findViewById(R.id.button9  ).setOnClickListener(digitButtonListener);
-		findViewById(R.id.buttonDot).setOnClickListener(digitButtonListener);
+		findViewById(button0  ).setOnClickListener(digitButtonListener);
+		findViewById(button1  ).setOnClickListener(digitButtonListener);
+		findViewById(button2  ).setOnClickListener(digitButtonListener);
+		findViewById(button3  ).setOnClickListener(digitButtonListener);
+		findViewById(button4  ).setOnClickListener(digitButtonListener);
+		findViewById(button5  ).setOnClickListener(digitButtonListener);
+		findViewById(button6  ).setOnClickListener(digitButtonListener);
+		findViewById(button7  ).setOnClickListener(digitButtonListener);
+		findViewById(button8  ).setOnClickListener(digitButtonListener);
+		findViewById(button9  ).setOnClickListener(digitButtonListener);
+		findViewById(buttonDot).setOnClickListener(digitButtonListener);
 	}
 }
