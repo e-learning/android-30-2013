@@ -31,7 +31,7 @@
     <ignored path="DreamCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.xml" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383051015699" ignored="false" />
-    <file path="/Dummy.txt" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383145313625" ignored="false" />
+    <file path="/Dummy.txt" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383242333057" ignored="false" />
     <file path="/MainActivity.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383063979891" ignored="false" />
     <file path="/Calculator.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383077418550" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -435,7 +435,11 @@
       <created>1383145316497</created>
       <updated>1383145316497</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Power">
+      <created>1383242343130</created>
+      <updated>1383242343130</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
