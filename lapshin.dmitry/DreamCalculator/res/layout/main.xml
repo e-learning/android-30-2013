@@ -8,7 +8,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:id="@+id/editText" android:layout_gravity="center_horizontal|top" android:textSize="24dp"
-            android:inputType="none" android:layout_weight="4"/>
+            android:inputType="none" android:layout_weight="5"/>
     <TableLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" android:layout_gravity="center_vertical|right"
@@ -88,7 +88,7 @@
             android:layout_height="fill_parent" android:layout_weight="5">
         <TableRow
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" android:layout_weight="1">
+                android:layout_height="fill_parent" android:layout_weight="1"> <!-- -->
             <Button
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
@@ -98,6 +98,6 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:id="@+id/buttonMenuRight" android:layout_column="1" android:layout_weight="1" android:text="Functions"/>
-        </TableRow>
+        </TableRow> <!-- -->
     </TableLayout>
 </LinearLayout>
