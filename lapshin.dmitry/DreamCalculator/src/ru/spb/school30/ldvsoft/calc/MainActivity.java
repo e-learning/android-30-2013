@@ -2,15 +2,21 @@ package ru.spb.school30.ldvsoft.calc;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
+import android.view.ViewGroup;
+import android.widget.*;
 
 import static ru.spb.school30.ldvsoft.calc.R.id.*;
 
 public class MainActivity extends Activity
 {
-    private class DigitButtonListener implements View.OnClickListener
+	private float mx, my;
+
+	private ScrollView vScroll;
+	private HorizontalScrollView hScroll;
+
+	private class DigitButtonListener implements View.OnClickListener
 	{
 		@Override
 		public void onClick(View view)
@@ -22,12 +28,45 @@ public class MainActivity extends Activity
 	}
 	private DigitButtonListener digitButtonListener = new DigitButtonListener();
 
+	private class StringButtonListener implements View.OnClickListener
+	{
+		String toAdd;
+
+		public StringButtonListener(String s)
+		{
+			toAdd = s;
+		}
+
+		@Override
+		public void onClick(View view)
+		{
+			final TextView field = (TextView) findViewById(editText);
+			field.setText(field.getText().toString() + toAdd);
+		}
+	}
+
+	private void buildDisplay()
+	{
+		LinearLayout displayBase = (LinearLayout) findViewById(R.id.displayBase);
+		LinearLayout display = (LinearLayout) findViewById(R.id.display);
+		TextView tv = new TextView(this);
+		tv.setText("Meow?");
+		display.addView(tv);
+		tv.getLayoutParams().height = ViewGroup.LayoutParams.MATCH_PARENT;
+		tv.getLayoutParams().width = ViewGroup.LayoutParams.WRAP_CONTENT;
+
+		Toast.makeText(this, Integer.toString(findViewById(R.id.display).getHeight()), Toast.LENGTH_SHORT).show();
+	}
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+		vScroll = (ScrollView) findViewById(R.id.vScroll);
+		hScroll = (HorizontalScrollView) findViewById(R.id.hScroll);
 
 		findViewById(buttonCalculate).setOnClickListener(new View.OnClickListener()
 		{
@@ -47,7 +86,7 @@ public class MainActivity extends Activity
 			}
 		});
 
-		findViewById(buttonClear).setOnClickListener(new View.OnClickListener()
+		findViewById(buttonAC).setOnClickListener(new View.OnClickListener()
 		{
 			@Override
 			public void onClick(View view)
@@ -67,10 +106,52 @@ public class MainActivity extends Activity
 		findViewById(button8).setOnClickListener(digitButtonListener);
 		findViewById(button9).setOnClickListener(digitButtonListener);
 		findViewById(buttonDot).setOnClickListener(digitButtonListener);
+
 		findViewById(buttonAdd     ).setOnClickListener(digitButtonListener);
 		findViewById(buttonSubtract).setOnClickListener(digitButtonListener);
 		findViewById(buttonMultiply).setOnClickListener(digitButtonListener);
 		findViewById(buttonDivide  ).setOnClickListener(digitButtonListener);
-		findViewById(buttonPower   ).setOnClickListener(digitButtonListener);
+
+		findViewById(buttonCalc).setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View view)
+			{
+				buildDisplay();
+			}
+		});
+
+		findViewById(R.id.vScroll).setMinimumHeight(findViewById(R.id.displayBase).getHeight());
+		findViewById(R.id.hScroll).setMinimumHeight(findViewById(R.id.displayBase).getHeight());
+		findViewById(R.id.display).setMinimumHeight(findViewById(R.id.displayBase).getHeight());
+	}
+
+	@Override
+	public boolean onTouchEvent(MotionEvent event) {
+		float curX, curY;
+
+		switch (event.getAction()) {
+
+			case MotionEvent.ACTION_DOWN:
+				mx = event.getX();
+				my = event.getY();
+				break;
+			case MotionEvent.ACTION_MOVE:
+				curX = event.getX();
+				curY = event.getY();
+				vScroll.scrollBy((int) (mx - curX), (int) (my - curY));
+				hScroll.scrollBy((int) (mx - curX), (int) (my - curY));
+				mx = curX;
+				my = curY;
+				break;
+			case MotionEvent.ACTION_UP:
+				curX = event.getX();
+				curY = event.getY();
+				vScroll.scrollBy((int) (mx - curX), (int) (my - curY));
+				hScroll.scrollBy((int) (mx - curX), (int) (my - curY));
+				break;
+		}
+
+		return true;
 	}
 }
