@@ -15,7 +15,7 @@
 		<ru.spb.school30.ldvsoft.calc.VScroll android:layout_height="match_parent" android:layout_width="match_parent"
 		                                      android:id="@+id/vScroll" android:gravity="center_vertical|left">
 			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-			              android:gravity="center_vertical|left">
+			              android:gravity="center_vertical|left" android:id="@+id/displayBase1">
 				<ru.spb.school30.ldvsoft.calc.HScroll android:id="@+id/hScroll"
 				                                      android:layout_width="match_parent"
 				                                      android:layout_height="match_parent"

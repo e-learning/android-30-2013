@@ -2,6 +2,7 @@ package ru.spb.school30.ldvsoft.calc;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,8 +14,8 @@ public class MainActivity extends Activity
 {
 	private float mx, my;
 
-	private ScrollView vScroll;
-	private HorizontalScrollView hScroll;
+	private ScrollView myvScroll;
+	private HorizontalScrollView myhScroll;
 
 	private class DigitButtonListener implements View.OnClickListener
 	{
@@ -47,13 +48,18 @@ public class MainActivity extends Activity
 
 	private void buildDisplay()
 	{
-		LinearLayout displayBase = (LinearLayout) findViewById(R.id.displayBase);
 		LinearLayout display = (LinearLayout) findViewById(R.id.display);
 		TextView tv = new TextView(this);
 		tv.setText("Meow?");
 		display.addView(tv);
+		tv.setGravity(Gravity.CENTER_VERTICAL);
 		tv.getLayoutParams().height = ViewGroup.LayoutParams.MATCH_PARENT;
 		tv.getLayoutParams().width = ViewGroup.LayoutParams.WRAP_CONTENT;
+
+		myhScroll.fullScroll(View.FOCUS_LEFT);
+		//myhScroll.scrollTo(0, 0);
+		myvScroll.fullScroll(View.FOCUS_UP);
+		//myvScroll.scrollTo(0, 0);
 
 		Toast.makeText(this, Integer.toString(findViewById(R.id.display).getHeight()), Toast.LENGTH_SHORT).show();
 	}
@@ -65,8 +71,8 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-		vScroll = (ScrollView) findViewById(R.id.vScroll);
-		hScroll = (HorizontalScrollView) findViewById(R.id.hScroll);
+		myvScroll = (ScrollView) findViewById(R.id.vScroll);
+		myhScroll = (HorizontalScrollView) findViewById(R.id.hScroll);
 
 		findViewById(buttonCalculate).setOnClickListener(new View.OnClickListener()
 		{
@@ -92,6 +98,29 @@ public class MainActivity extends Activity
 			public void onClick(View view)
 			{
 				((TextView) findViewById(editText)).setText("");
+			}
+		});
+		findViewById(buttonIntegral).setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View view)
+			{
+				int displayBaseHeight = findViewById(displayBase).getHeight();
+				findViewById(vScroll).setMinimumHeight(displayBaseHeight);
+				findViewById(displayBase1).setMinimumHeight(displayBaseHeight);
+				findViewById(hScroll).setMinimumHeight(displayBaseHeight);
+				findViewById(display).setMinimumHeight(displayBaseHeight);
+				findViewById(hScroll).setMinimumHeight(displayBaseHeight);
+				findViewById(displayBase1).setMinimumHeight(displayBaseHeight);
+				findViewById(vScroll).setMinimumHeight(displayBaseHeight);
+
+				findViewById(displayBase).invalidate();
+				String message =
+						"Edit:" + Integer.toString(findViewById(editText).getHeight()) +
+								"\nDisplayBase: " + Integer.toString(displayBaseHeight) +
+								"\nDisplayBase1: " + Integer.toString(findViewById(displayBase1).getHeight()) +
+								"\nDisplay: " + Integer.toString(findViewById(display).getHeight());
+				Toast.makeText(MainActivity.this, message, Toast.LENGTH_LONG).show();
 			}
 		});
 
@@ -120,10 +149,6 @@ public class MainActivity extends Activity
 				buildDisplay();
 			}
 		});
-
-		findViewById(R.id.vScroll).setMinimumHeight(findViewById(R.id.displayBase).getHeight());
-		findViewById(R.id.hScroll).setMinimumHeight(findViewById(R.id.displayBase).getHeight());
-		findViewById(R.id.display).setMinimumHeight(findViewById(R.id.displayBase).getHeight());
 	}
 
 	@Override
@@ -139,19 +164,26 @@ public class MainActivity extends Activity
 			case MotionEvent.ACTION_MOVE:
 				curX = event.getX();
 				curY = event.getY();
-				vScroll.scrollBy((int) (mx - curX), (int) (my - curY));
-				hScroll.scrollBy((int) (mx - curX), (int) (my - curY));
+				myvScroll.scrollBy((int) (mx - curX), (int) (my - curY));
+				myhScroll.scrollBy((int) (mx - curX), (int) (my - curY));
 				mx = curX;
 				my = curY;
 				break;
 			case MotionEvent.ACTION_UP:
 				curX = event.getX();
 				curY = event.getY();
-				vScroll.scrollBy((int) (mx - curX), (int) (my - curY));
-				hScroll.scrollBy((int) (mx - curX), (int) (my - curY));
+				myvScroll.scrollBy((int) (mx - curX), (int) (my - curY));
+				myhScroll.scrollBy((int) (mx - curX), (int) (my - curY));
 				break;
 		}
 
 		return true;
+	}
+
+	@Override
+	protected void onStart()
+	{
+		super.onStart();    //To change body of overridden methods use File | Settings | File Templates.
+		findViewById(buttonIntegral).callOnClick();
 	}
 }
