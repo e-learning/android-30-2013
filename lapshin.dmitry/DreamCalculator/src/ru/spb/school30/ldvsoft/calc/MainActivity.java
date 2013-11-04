@@ -92,6 +92,30 @@ public class MainActivity extends Activity
 			}
 		});
 
+
+		findViewById(buttonCalc).setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View view)
+			{
+				buildDisplay();
+			}
+		});
+		findViewById(buttonRCL).setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View v)
+			{
+				try
+				{
+					(new MathExpressionBuilderTest()).testBuildExpression();
+				}
+				catch (Exception e)
+				{
+					e.printStackTrace();
+				}
+			}
+		});
 		findViewById(buttonAC).setOnClickListener(new View.OnClickListener()
 		{
 			@Override
@@ -140,15 +164,6 @@ public class MainActivity extends Activity
 		findViewById(buttonSubtract).setOnClickListener(digitButtonListener);
 		findViewById(buttonMultiply).setOnClickListener(digitButtonListener);
 		findViewById(buttonDivide  ).setOnClickListener(digitButtonListener);
-
-		findViewById(buttonCalc).setOnClickListener(new View.OnClickListener()
-		{
-			@Override
-			public void onClick(View view)
-			{
-				buildDisplay();
-			}
-		});
 	}
 
 	@Override
