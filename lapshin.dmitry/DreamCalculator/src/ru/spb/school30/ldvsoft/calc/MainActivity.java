@@ -198,7 +198,7 @@ public class MainActivity extends Activity
 	@Override
 	protected void onStart()
 	{
-		super.onStart();    //To change body of overridden methods use File | Settings | File Templates.
+		super.onStart();
 		findViewById(buttonIntegral).callOnClick();
 	}
 }

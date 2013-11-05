@@ -13,16 +13,18 @@ import java.util.TreeMap;
  */
 public class MathExpressionBuilder
 {
-	private static final TreeMap<Character, Integer> OPERATORS = new TreeMap<Character, Integer>();
+	private static final TreeMap<String, Integer> OPERATORS = new TreeMap<String, Integer>();
 	private static final String NUMBER_PARTS = "0123456789.";
+	private static final TreeMap<String, MathExpression> FUNCTIONS = new TreeMap<String, MathExpression>();
 	static
 	{
-		OPERATORS.put('+', 1);
-		OPERATORS.put('-', 1);
-		OPERATORS.put('*', 2);
-		OPERATORS.put('/', 2);
-		OPERATORS.put('(', 0);
-		OPERATORS.put(')', 0);
+		OPERATORS.put("+", 1);
+		OPERATORS.put("-", 1);
+		OPERATORS.put("*", 2);
+		OPERATORS.put("/", 2);
+
+		FUNCTIONS.put("\\sqrt", new SqrtExpression(null));
+		OPERATORS.put("\\sqrt", 1);
 	}
 
 	private static boolean isNumberPart(char c)
@@ -38,7 +40,7 @@ public class MathExpressionBuilder
 	private static Deque<Object> buildShuntingYard(String expressionString) throws SyntaxErrorException
 	{
 		//To Polish
-		Deque<Character> operatorsStack = new ArrayDeque<Character>();
+		Deque<String> operatorsStack = new ArrayDeque<String>();
 		Deque<Object> expressionOut = new ArrayDeque<Object>();
 
 		int i = 0;
@@ -69,28 +71,36 @@ public class MathExpressionBuilder
 			else if (expressionString.charAt(i) == '\\')
 			{
 				//Read a function
-				throw new SyntaxErrorException();
+				String function = "\\";
+				i++;
+				while (i < expressionString.length() && expressionString.charAt(i) != '(')
+				{
+					function += expressionString.charAt(i);
+					i++;
+				}
+				if (!FUNCTIONS.containsKey(function))
+					throw new SyntaxErrorException();
+				operatorsStack.addLast(function);
 			}
 			else if (expressionString.charAt(i) == ',')
 			{
 				// , between function arguments
 				throw new SyntaxErrorException();
 			}
-			else if (OPERATORS.containsKey(expressionString.charAt(i)))
+			else if (OPERATORS.containsKey(Character.toString(expressionString.charAt(i))))
 			{
 				// Operator
 				while (operatorsStack.size() > 0 && OPERATORS.containsKey(operatorsStack.getLast())
-						&& OPERATORS.get(operatorsStack.getLast()) >= OPERATORS.get(expressionString.charAt(i)))
-				{
-					expressionOut.addLast(operatorsStack.getLast());
-					operatorsStack.removeLast();
-				}
-				operatorsStack.addLast(expressionString.charAt(i));
+						&& OPERATORS.get(operatorsStack.getLast()) >= OPERATORS.get(
+							Character.toString(expressionString.charAt(i))
+						))
+					expressionOut.addLast(operatorsStack.removeLast());
+				operatorsStack.addLast(Character.toString(expressionString.charAt(i)));
 				++i;
 			}
 			else if (expressionString.charAt(i) == '(')
 			{
-				operatorsStack.addLast(expressionString.charAt(i));
+				operatorsStack.addLast(Character.toString(expressionString.charAt(i)));
 				++i;
 			}
 			else if (expressionString.charAt(i) == ')')
@@ -98,7 +108,7 @@ public class MathExpressionBuilder
 				boolean wasOpeningBrace = false;
 				while (operatorsStack.size() > 0)
 				{
-					if (operatorsStack.getLast() == '(')
+					if (operatorsStack.getLast().equals("("))
 					{
 						wasOpeningBrace = true;
 						break;
@@ -109,7 +119,7 @@ public class MathExpressionBuilder
 				if (!wasOpeningBrace)
 					throw new SyntaxErrorException();
 				operatorsStack.removeLast(); //That was a (
-				if (operatorsStack.size() > 1 && operatorsStack.getLast() == '\\')
+				if (operatorsStack.size() > 1 && operatorsStack.getLast().charAt(0) == '\\')
 				{
 					expressionOut.addLast(operatorsStack.getLast());
 					operatorsStack.removeLast();
@@ -122,7 +132,7 @@ public class MathExpressionBuilder
 
 		while (operatorsStack.size() > 0)
 		{
-			if ("()".indexOf(operatorsStack.getLast()) != -1)
+			if ("()".indexOf(operatorsStack.getLast().charAt(0)) != -1)
 				throw new SyntaxErrorException();
 			expressionOut.addLast(operatorsStack.getLast());
 			operatorsStack.removeLast();
@@ -137,16 +147,15 @@ public class MathExpressionBuilder
 
 		while (expressionDeque.size() > 0)
 		{
-			Object o = expressionDeque.getFirst();
-			expressionDeque.removeFirst();
-			MathExpression newExpr = null;
+			Object o = expressionDeque.removeFirst();
+			MathExpression newExpr;
 			if (MathExpression.class.isInstance(o))
 				newExpr = (MathExpression) o;
 			else
 			{
 				MathExpression op1;
 				MathExpression op2;
-				switch ((Character) o)
+				switch (((String) o).charAt(0))
 				{
 					case '+':
 						if (exprStack.size() < 2)
@@ -176,6 +185,18 @@ public class MathExpressionBuilder
 						op1 = exprStack.removeLast();
 						newExpr = new DivideExpression(op1, op2);
 						break;
+					case '\\':
+						if (o.equals("\\sqrt"))
+						{
+							if (exprStack.size() < 1)
+								throw new SyntaxErrorException();
+							newExpr = new SqrtExpression(exprStack.removeLast());
+							break;
+						}
+						throw new SyntaxErrorException();
+					default:
+						//Strange, just to be sure
+						throw new SyntaxErrorException();
 				}
 			}
 
