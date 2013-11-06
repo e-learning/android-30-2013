@@ -8,28 +8,12 @@
 			android:layout_width="match_parent"
 			android:layout_height="0dp"
 			android:id="@+id/editText" android:layout_gravity="center_horizontal|top" android:textSize="24dp"
-			android:inputType="none" android:layout_weight="5" android:editable="false" />
-	<LinearLayout android:layout_width="match_parent"
-	              android:layout_height="0dp"
-	              android:layout_weight="5" android:id="@+id/displayBase">
-		<ru.spb.school30.ldvsoft.calc.VScroll android:layout_height="match_parent" android:layout_width="match_parent"
-		                                      android:id="@+id/vScroll" android:gravity="center_vertical|left">
-			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-			              android:gravity="center_vertical|left" android:id="@+id/displayBase1">
-				<ru.spb.school30.ldvsoft.calc.HScroll android:id="@+id/hScroll"
-				                                      android:layout_width="match_parent"
-				                                      android:layout_height="match_parent"
-				                                      android:gravity="center_vertical|left">
-					<LinearLayout
-							android:orientation="horizontal"
-							android:layout_width="match_parent"
-							android:layout_height="wrap_content" android:layout_gravity="center"
-							android:id="@+id/display" android:gravity="center_vertical|left">
-					</LinearLayout>
-				</ru.spb.school30.ldvsoft.calc.HScroll>
-			</LinearLayout>
-		</ru.spb.school30.ldvsoft.calc.VScroll>
-	</LinearLayout>
+			android:inputType="none" android:layout_weight="5" />
+	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:text="New Text"
+			android:id="@+id/textView" android:layout_weight="3" />
 	<TableLayout
 			android:layout_width="match_parent"
 			android:layout_height="0dp" android:layout_weight="10" android:id="@+id/tableButtonsTop">

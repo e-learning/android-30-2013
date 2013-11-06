@@ -23,7 +23,7 @@ public class SubstractExpression implements MathExpression
 		MathValue lValue = left.calculate();
 		MathValue rValue = right.calculate();
 		//Stupid, just for now
-		return new MathValue(lValue.getRawValue() - rValue.getRawValue());
+		return new DoubleValue(lValue.getRawValue() - rValue.getRawValue());
 	}
 
 	@Override

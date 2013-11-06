@@ -9,7 +9,7 @@ import java.util.TreeMap;
  * User: LDVSOFT
  * Date: 04.11.13
  * Time: 20:41
- * Builds expression with it's parts from string form.
+ * Builds expression with it's structure from string form.
  */
 public class MathExpressionBuilder
 {
@@ -39,7 +39,6 @@ public class MathExpressionBuilder
 
 	private static Deque<Object> buildShuntingYard(String expressionString) throws SyntaxErrorException
 	{
-		//To Polish
 		Deque<String> operatorsStack = new ArrayDeque<String>();
 		Deque<Object> expressionOut = new ArrayDeque<Object>();
 
@@ -63,10 +62,16 @@ public class MathExpressionBuilder
 					{
 						pow /= 10.0;
 						num += pow * (expressionString.charAt(i) - '0');
+						++i;
 					}
 				}
 
-				expressionOut.addLast(new NumberExpression(num));
+				MathValue number;
+				if (Math.abs(num) <= IntegerValue.MAX_VALUE && Math.abs(Math.round(num) - num) < DoubleValue.EPS)
+					number = new IntegerValue((int)Math.round(num));
+				else
+					number = new DoubleValue(num);
+				expressionOut.addLast(new NumberExpression(number));
 			}
 			else if (expressionString.charAt(i) == '\\')
 			{
@@ -206,7 +211,7 @@ public class MathExpressionBuilder
 		if (exprStack.size() > 1)
 			throw new SyntaxErrorException();
 		if (exprStack.size() == 0)
-			return new NumberExpression(0.0);
+			return new NumberExpression(new DoubleValue(0.0));
 		return exprStack.removeLast();
 	}
 

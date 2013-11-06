@@ -22,7 +22,7 @@ public class SqrtExpression implements MathExpression
 		MathValue exprValue = expression.calculate();
 		if (exprValue.getRawValue() < 0.0)
 			return null;
-		return new MathValue(Math.sqrt(exprValue.getRawValue()));
+		return new DoubleValue(Math.sqrt(exprValue.getRawValue()));
 	}
 
 	@Override

@@ -26,18 +26,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SqrtExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DoubleValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/IntegerValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/AddExpression.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/AddExpression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DivideExpression.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DivideExpression.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilder.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilderTest.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathValue.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MultiplyExpression.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MultiplyExpression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/NumberExpression.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/NumberExpression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SqrtExpression.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SqrtExpression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SubstractExpression.java" afterPath="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SubstractExpression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DreamCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.xml" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383332894041" ignored="false" />
-    <file path="/Dummy.txt" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383672125011" ignored="false" />
-    <file path="/MainActivity.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383648296427" ignored="false" />
-    <file path="/Calculator.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383077418550" ignored="false" />
+    <file path="/Dummy.txt" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383733000119" ignored="false" />
+    <file path="/MainActivity.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383738252017" ignored="false" />
+    <file path="/Calculator.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383740618627" ignored="false" />
     <file path="/fragment.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383592355837" ignored="false" />
     <file path="/a.xml" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383333575982" ignored="false" />
     <file path="/InputPart_Linear.xml" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383326631310" ignored="false" />
@@ -46,16 +56,22 @@
     <file path="/a.dummy" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383330580534" ignored="false" />
     <file path="/TwoDimensionalScrollView.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383414589168" ignored="false" />
     <file path="/MathExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383597359349" ignored="false" />
-    <file path="/MathValue.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383597279575" ignored="false" />
-    <file path="/AddExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383591868062" ignored="false" />
-    <file path="/MathExpressionBuilder.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383671172437" ignored="false" />
-    <file path="/NumberExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383588412288" ignored="false" />
+    <file path="/MathValue.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383737720680" ignored="false" />
+    <file path="/AddExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383737801053" ignored="false" />
+    <file path="/MathExpressionBuilder.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383737145890" ignored="false" />
+    <file path="/NumberExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383737163237" ignored="false" />
     <file path="/SyntaxErrorExceprion.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383585919310" ignored="false" />
     <file path="/sfgfdgdg.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383591840666" ignored="false" />
-    <file path="/MathExpressionBuilderTest.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383597291977" ignored="false" />
+    <file path="/MathExpressionBuilderTest.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383735489842" ignored="false" />
     <file path="/sdfgffdsgfdg.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383596834509" ignored="false" />
     <file path="/SyntaxErrorException.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383597346232" ignored="false" />
-    <file path="/SqrtExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383672172108" ignored="false" />
+    <file path="/SqrtExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383737786309" ignored="false" />
+    <file path="/RationalValue.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383736972667" ignored="false" />
+    <file path="/MathValue__.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383735355468" ignored="false" />
+    <file path="/DoubleExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383735664279" ignored="false" />
+    <file path="/SubstractExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383737776971" ignored="false" />
+    <file path="/MultiplyExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383737792941" ignored="false" />
+    <file path="/DivideExpression.java" changelist="148eba0c-bb35-4cc4-ac57-f73ba4a3afc1" time="1383737807701" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +91,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -112,8 +127,24 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilderTest.java" line="21" class="ru.spb.school30.ldvsoft.calc.MathExpressionBuilderTest" package="ru.spb.school30.ldvsoft.calc">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilder.java" line="69" class="ru.spb.school30.ldvsoft.calc.MathExpressionBuilder" package="ru.spb.school30.ldvsoft.calc">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -144,7 +175,7 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state line="26" column="90" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0">
+            <state line="16" column="4" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,54 +184,57 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="12" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+            <state line="2" column="7" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2744#2976#0" expanded="true" />
-                <element signature="e#2971#2972#0" expanded="true" />
+                <element signature="e#923#1448#0" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
+                <element signature="e#1498#1730#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
+                <element signature="e#1777#1921#0" expanded="true" />
+                <element signature="e#1916#1917#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathExpressionBuilder.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Calculator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="21" selection-start="541" selection-end="541" vertical-scroll-proportion="0.72727275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MathExpressionBuilder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="34" selection-start="4188" selection-end="4188" vertical-scroll-proportion="0.33152175">
+            <state line="228" column="0" selection-start="6376" selection-end="6376" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#370#387#0" expanded="true" />
-                <element signature="e#527#551#0" expanded="true" />
-                <element signature="e#1089#1097#0" expanded="true" />
-                <element signature="e#1147#1155#0" expanded="true" />
-                <element signature="e#4056#4072#0" expanded="true" />
+                <element signature="e#374#391#0" expanded="true" />
+                <element signature="e#531#555#0" expanded="true" />
+                <element signature="e#1079#1087#0" expanded="true" />
+                <element signature="e#1137#1145#0" expanded="true" />
+                <element signature="e#4283#4299#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SqrtExpression.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SqrtExpression.java">
+      <file leaf-file-name="IntegerValue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/IntegerValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+            <state line="11" column="48" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathExpressionBuilderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilderTest.java">
+      <file leaf-file-name="DoubleValue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DoubleValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="12" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MathValue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="74" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+            <state line="32" column="29" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -229,22 +263,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/android/widget/TwoDimensionalScrollView.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SyntaxErrorExceprion.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/NumberExpression.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/sfgfdgdg.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/AddExpression.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/sdfgffdsgfdg.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MultiplyExpression.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SubstractExpression.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DivideExpression.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathValue.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SyntaxErrorException.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpression.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilderTest.java" />
-        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SqrtExpression.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/NumberValue.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DoubleExpression.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathValue.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/IntegerValue.java" />
         <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilder.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/NumberExpression.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DoubleValue.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SubstractExpression.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SqrtExpression.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MultiplyExpression.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/AddExpression.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DivideExpression.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java" />
       </list>
     </option>
   </component>
@@ -296,8 +330,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -347,28 +381,31 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Android SDK/sdk/sources/android-15" />
-    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5556" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="DEBUGGABLE_DEVICE" value="emulator-5554 (Android_4.0.3)" />
+    <property name="DEBUGGABLE_PROCESS" value="ru.spb.school30.ldvsoft.calc" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android_4.3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -411,6 +448,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -436,19 +486,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -607,7 +644,11 @@
       <created>1383597472050</created>
       <updated>1383597472050</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Now NewMaths (c) supports functions! Sqrt added for now.">
+      <created>1383672199694</created>
+      <updated>1383672199694</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -634,26 +675,26 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20454545" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18030304" sideWeight="0.6712095" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20378788" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17954545" sideWeight="0.6712095" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23787878" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23787878" sideWeight="0.6609881" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33901194" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -733,93 +774,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="26" column="90" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/VScroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="329" selection-end="329" vertical-scroll-proportion="0.30195382">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/NumberExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.4391144">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SubstractExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="156" selection-end="156" vertical-scroll-proportion="0.3888889">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DivideExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="156" selection-end="156" vertical-scroll-proportion="0.3888889">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MultiplyExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="32" selection-start="648" selection-end="648" vertical-scroll-proportion="0.8888889">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/AddExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.3314121">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="157" selection-end="157" vertical-scroll-proportion="0.2651297">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SyntaxErrorException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="34" selection-start="158" selection-end="158" vertical-scroll-proportion="0.3429395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="90" selection-end="90" vertical-scroll-proportion="-0.5027174">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="12" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2744#2976#0" expanded="true" />
-            <element signature="e#2971#2972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="74" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -833,29 +790,116 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+        <state line="22" column="46" selection-start="595" selection-end="595" vertical-scroll-proportion="0.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="253" selection-end="253" vertical-scroll-proportion="0.36363637">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/IntegerValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/NumberExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="268" selection-end="268" vertical-scroll-proportion="0.24242425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DoubleValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="29" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SubstractExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="31" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/DivideExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="403" selection-end="403" vertical-scroll-proportion="1.1666666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/AddExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="31" selection-start="527" selection-end="527" vertical-scroll-proportion="0.37908497">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MultiplyExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="31" selection-start="537" selection-end="537" vertical-scroll-proportion="0.37908497">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/SqrtExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+        <state line="24" column="31" selection-start="499" selection-end="499" vertical-scroll-proportion="0.37908497">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MathExpressionBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="34" selection-start="4188" selection-end="4188" vertical-scroll-proportion="0.33152175">
+        <state line="228" column="0" selection-start="6376" selection-end="6376" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#370#387#0" expanded="true" />
-            <element signature="e#527#551#0" expanded="true" />
-            <element signature="e#1089#1097#0" expanded="true" />
-            <element signature="e#1147#1155#0" expanded="true" />
-            <element signature="e#4056#4072#0" expanded="true" />
+            <element signature="e#374#391#0" expanded="true" />
+            <element signature="e#531#555#0" expanded="true" />
+            <element signature="e#1079#1087#0" expanded="true" />
+            <element signature="e#1137#1145#0" expanded="true" />
+            <element signature="e#4283#4299#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#923#1448#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1498#1730#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1777#1921#0" expanded="true" />
+            <element signature="e#1916#1917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/school30/ldvsoft/calc/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="21" selection-start="541" selection-end="541" vertical-scroll-proportion="0.72727275">
+          <folding />
         </state>
       </provider>
     </entry>

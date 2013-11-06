@@ -6,25 +6,26 @@ package ru.spb.school30.ldvsoft.calc;
  * Date: 04.11.13
  * Time: 20:59
  * The very basic expression - just a number
+ * This number is hosted as MathValue
  */
 public class NumberExpression implements MathExpression
 {
-	private double number;
+	private MathValue value;
 
-	public NumberExpression(double aNumber)
+	public NumberExpression(MathValue aValue)
 	{
-		number = aNumber;
+		value = aValue;
 	}
 
 	@Override
 	public MathValue calculate()
 	{
-		return new MathValue(number);
+		return value;
 	}
 
 	@Override
 	public String write()
 	{
-		return Double.toString(number);
+		return value.toString();
 	}
 }
