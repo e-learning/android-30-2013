@@ -10,15 +10,15 @@ package ru.spb.school30.ldvsoft.calc;
  */
 public class NumberExpression implements MathExpression
 {
-	private MathValue value;
+	private NumberValue value;
 
-	public NumberExpression(MathValue aValue)
+	public NumberExpression(NumberValue aValue)
 	{
 		value = aValue;
 	}
 
 	@Override
-	public MathValue calculate()
+	public MathValue calculate() throws MathException
 	{
 		return value;
 	}

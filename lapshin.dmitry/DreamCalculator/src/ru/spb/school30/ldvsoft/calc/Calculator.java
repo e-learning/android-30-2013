@@ -9,6 +9,17 @@ package ru.spb.school30.ldvsoft.calc;
  */
 public class Calculator
 {
+	public static enum Mode
+	{
+		REAL
+	}
+	private static Mode mode = Mode.REAL;
+
+	public static Mode getMode()
+	{
+		return mode;
+	}
+
 	public static MathValue calculate(String userInput)
 	{
 		MathExpression expression;

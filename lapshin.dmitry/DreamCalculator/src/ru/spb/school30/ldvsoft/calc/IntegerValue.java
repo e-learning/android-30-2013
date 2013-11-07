@@ -7,7 +7,7 @@ package ru.spb.school30.ldvsoft.calc;
  * Time: 14:52
  * Integer MathValue
  */
-public class IntegerValue implements MathValue
+public class IntegerValue extends NumberValue
 {
 	public static final int MAX_VALUE = 10000000;
 

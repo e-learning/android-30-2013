@@ -9,7 +9,7 @@ import java.text.DecimalFormat;
  * Time: 20:24
  * Base class for values of expressions. This type only have double value.
  */
-public class DoubleValue implements MathValue
+public class DoubleValue extends NumberValue
 {
 	public static final double EPS = 1E-8;
 

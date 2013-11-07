@@ -10,7 +10,7 @@ package ru.spb.school30.ldvsoft.calc;
 public interface MathExpression
 {
 	//Calculates value of expression
-	public MathValue calculate();
+	public MathValue calculate() throws MathException;
 	//Writes out expression. Should build from it's own structure, not from expression in constructor
 	public String write();
 }

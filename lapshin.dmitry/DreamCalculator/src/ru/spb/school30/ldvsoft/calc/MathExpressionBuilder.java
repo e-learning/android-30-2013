@@ -10,21 +10,27 @@ import java.util.TreeMap;
  * Date: 04.11.13
  * Time: 20:41
  * Builds expression with it's structure from string form.
+ * We know that expression looks like this:
+ * 1. Simple - like Number, Variable etc
+ *     S
+ * 2. Operators - like Add, Subtract etc
+ *     S %operator% S
+ * 3. Functions - like Sin, Cos, Ln etc
+ *     \%functionName%([S [, ...]])
  */
 public class MathExpressionBuilder
 {
-	private static final TreeMap<String, Integer> OPERATORS = new TreeMap<String, Integer>();
 	private static final String NUMBER_PARTS = "0123456789.";
-	private static final TreeMap<String, MathExpression> FUNCTIONS = new TreeMap<String, MathExpression>();
+	private static final String DIGITS = "0123456789";
+	private static final TreeMap<String, FunctionHost> FUNCTIONS = new TreeMap<String, FunctionHost>();
 	static
 	{
-		OPERATORS.put("+", 1);
-		OPERATORS.put("-", 1);
-		OPERATORS.put("*", 2);
-		OPERATORS.put("/", 2);
-
-		FUNCTIONS.put("\\sqrt", new SqrtExpression(null));
-		OPERATORS.put("\\sqrt", 1);
+		FUNCTIONS.put("+", new OperatorAddHost());
+		FUNCTIONS.put("-", new OperatorSubstractHost());
+		FUNCTIONS.put("*", new OperatorMultiplyHost());
+		FUNCTIONS.put("/", new OperatorDivideHost());
+		FUNCTIONS.put(",", new OperatorCommaHost());
+		FUNCTIONS.put("\\sqrt", new SqrtHost());
 	}
 
 	private static boolean isNumberPart(char c)
@@ -34,7 +40,14 @@ public class MathExpressionBuilder
 
 	private static boolean isDigit(char c)
 	{
-		return '0' <= c && c <= '9';
+		return DIGITS.indexOf(c) != -1;
+	}
+
+	private static NumberValue buildNumber(double aNumber)
+	{
+		if (Math.abs(aNumber) <= IntegerValue.MAX_VALUE && Math.abs(Math.round(aNumber) - aNumber) < DoubleValue.EPS)
+			return new IntegerValue((int)Math.round(aNumber));
+		return new DoubleValue(aNumber);
 	}
 
 	private static Deque<Object> buildShuntingYard(String expressionString) throws SyntaxErrorException
@@ -66,12 +79,7 @@ public class MathExpressionBuilder
 					}
 				}
 
-				MathValue number;
-				if (Math.abs(num) <= IntegerValue.MAX_VALUE && Math.abs(Math.round(num) - num) < DoubleValue.EPS)
-					number = new IntegerValue((int)Math.round(num));
-				else
-					number = new DoubleValue(num);
-				expressionOut.addLast(new NumberExpression(number));
+				expressionOut.addLast(new NumberExpression(buildNumber(num)));
 			}
 			else if (expressionString.charAt(i) == '\\')
 			{
@@ -84,23 +92,19 @@ public class MathExpressionBuilder
 					i++;
 				}
 				if (!FUNCTIONS.containsKey(function))
-					throw new SyntaxErrorException();
+					throw new SyntaxErrorException(SyntaxErrorException.WRONG_FUNCTION);
 				operatorsStack.addLast(function);
 			}
-			else if (expressionString.charAt(i) == ',')
-			{
-				// , between function arguments
-				throw new SyntaxErrorException();
-			}
-			else if (OPERATORS.containsKey(Character.toString(expressionString.charAt(i))))
+			else if (FUNCTIONS.containsKey(expressionString.substring(i, i + 1)))
 			{
 				// Operator
-				while (operatorsStack.size() > 0 && OPERATORS.containsKey(operatorsStack.getLast())
-						&& OPERATORS.get(operatorsStack.getLast()) >= OPERATORS.get(
-							Character.toString(expressionString.charAt(i))
-						))
+				while (
+					operatorsStack.size() > 0 && FUNCTIONS.containsKey(operatorsStack.getLast())
+					&& FUNCTIONS.get(operatorsStack.getLast()).getPriority()
+					>= FUNCTIONS.get(expressionString.substring(i, i + 1)).getPriority()
+				)
 					expressionOut.addLast(operatorsStack.removeLast());
-				operatorsStack.addLast(Character.toString(expressionString.charAt(i)));
+				operatorsStack.addLast(expressionString.substring(i, i + 1));
 				++i;
 			}
 			else if (expressionString.charAt(i) == '(')
@@ -122,7 +126,7 @@ public class MathExpressionBuilder
 					operatorsStack.removeLast();
 				}
 				if (!wasOpeningBrace)
-					throw new SyntaxErrorException();
+					throw new SyntaxErrorException("Brace error");
 				operatorsStack.removeLast(); //That was a (
 				if (operatorsStack.size() > 1 && operatorsStack.getLast().charAt(0) == '\\')
 				{
@@ -132,13 +136,13 @@ public class MathExpressionBuilder
 				++i;
 			}
 			else
-				throw new SyntaxErrorException();
+				throw new SyntaxErrorException("WATAFAG????");
 		}
 
 		while (operatorsStack.size() > 0)
 		{
 			if ("()".indexOf(operatorsStack.getLast().charAt(0)) != -1)
-				throw new SyntaxErrorException();
+				throw new SyntaxErrorException("Brace error");
 			expressionOut.addLast(operatorsStack.getLast());
 			operatorsStack.removeLast();
 		}
@@ -146,9 +150,20 @@ public class MathExpressionBuilder
 		return expressionOut;
 	}
 
+	private static class ExprDeque extends ArrayDeque<MathExpression>
+	{
+		@Override
+		public MathExpression removeLast()
+		{
+			if (size() > 0)
+				return super.removeLast();
+			return EmptyExpression.getInstance();
+		}
+	}
+
 	private static MathExpression buildExpression(Deque<Object> expressionDeque) throws SyntaxErrorException
 	{
-		Deque<MathExpression> exprStack = new ArrayDeque<MathExpression>();
+		Deque<MathExpression> exprStack = new ExprDeque();
 
 		while (expressionDeque.size() > 0)
 		{
@@ -158,58 +173,34 @@ public class MathExpressionBuilder
 				newExpr = (MathExpression) o;
 			else
 			{
+				ParamsExpression params;
 				MathExpression op1;
 				MathExpression op2;
 				switch (((String) o).charAt(0))
 				{
+					case ',':
 					case '+':
-						if (exprStack.size() < 2)
-							throw new SyntaxErrorException();
-						op2 = exprStack.removeLast();
-						op1 = exprStack.removeLast();
-						newExpr = new AddExpression(op1, op2);
-						break;
 					case '-':
-						if (exprStack.size() < 2)
-							throw new SyntaxErrorException();
-						op2 = exprStack.removeLast();
-						op1 = exprStack.removeLast();
-						newExpr = new SubstractExpression(op1, op2);
-						break;
 					case '*':
-						if (exprStack.size() < 2)
-							throw new SyntaxErrorException();
-						op2 = exprStack.removeLast();
-						op1 = exprStack.removeLast();
-						newExpr = new MultiplyExpression(op1, op2);
-						break;
 					case '/':
-						if (exprStack.size() < 2)
-							throw new SyntaxErrorException();
 						op2 = exprStack.removeLast();
 						op1 = exprStack.removeLast();
-						newExpr = new DivideExpression(op1, op2);
+						params = new ParamsExpression()
+							.add(op1)
+							.add(op2);
 						break;
-					case '\\':
-						if (o.equals("\\sqrt"))
-						{
-							if (exprStack.size() < 1)
-								throw new SyntaxErrorException();
-							newExpr = new SqrtExpression(exprStack.removeLast());
-							break;
-						}
-						throw new SyntaxErrorException();
 					default:
-						//Strange, just to be sure
-						throw new SyntaxErrorException();
+						params = new ParamsExpression();
+						if (exprStack.size() != 0)
+							params.add(exprStack.removeLast());
 				}
+				newExpr = FUNCTIONS.get(o).buildFunction(params.getParams());
 			}
-
 			exprStack.addLast(newExpr);
 		}
 
 		if (exprStack.size() > 1)
-			throw new SyntaxErrorException();
+			throw new SyntaxErrorException("Something left behind...");
 		if (exprStack.size() == 0)
 			return new NumberExpression(new DoubleValue(0.0));
 		return exprStack.removeLast();
@@ -217,15 +208,6 @@ public class MathExpressionBuilder
 
 	public static MathExpression buildExpression(String expressionString) throws SyntaxErrorException
 	{
-		//We know that expression looks like this:
-		// S = LITERAL
-		//	LITERAL = NUMBER | VARIABLE
-		// S = (S)
-		// S = S OPERATOR S
-		//   OPERATOR = + | - | * | /
-		// S = \FUNCTION(PARAMS)
-		//   PARAMS = S [, PARAMS]
-
 		return buildExpression(buildShuntingYard(expressionString));
 	}
 }
