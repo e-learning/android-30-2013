@@ -31,7 +31,7 @@ public class IntegralHost implements FunctionHost
 
 class IntegralExpression implements MathExpression
 {
-	private static int ITERATIONS = 1000000;
+	private static final int ITERATIONS = 300000;
 
 	private MathExpression lowerBound;
 	private MathExpression upperBound;
