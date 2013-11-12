@@ -31,6 +31,8 @@ public class MathExpressionBuilder
 		FUNCTIONS.put("/", new OperatorDivideHost());
 		FUNCTIONS.put(",", new OperatorCommaHost());
 		FUNCTIONS.put("\\sqrt", new SqrtHost());
+		FUNCTIONS.put("\\", new OperatorBracesHost());
+		FUNCTIONS.put("\\integral", new IntegralHost());
 	}
 
 	private static boolean isNumberPart(char c)
@@ -43,7 +45,7 @@ public class MathExpressionBuilder
 		return DIGITS.indexOf(c) != -1;
 	}
 
-	private static NumberValue buildNumber(double aNumber)
+	public static NumberValue buildNumber(double aNumber)
 	{
 		if (Math.abs(aNumber) <= IntegerValue.MAX_VALUE && Math.abs(Math.round(aNumber) - aNumber) < DoubleValue.EPS)
 			return new IntegerValue((int)Math.round(aNumber));
@@ -133,6 +135,11 @@ public class MathExpressionBuilder
 					expressionOut.addLast(operatorsStack.getLast());
 					operatorsStack.removeLast();
 				}
+				++i;
+			}
+			else if (Variables.isVariable(expressionString.charAt(i)))
+			{
+				expressionOut.addLast(new VarExpression(expressionString.charAt(i)));
 				++i;
 			}
 			else

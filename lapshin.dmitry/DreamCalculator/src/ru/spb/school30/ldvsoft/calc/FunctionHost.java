@@ -12,6 +12,7 @@ import java.util.Vector;
  */
 public interface FunctionHost
 {
+	public static int FUNCTION_PRIORITY = 1;
 	public int getPriority();
 	public MathExpression buildFunction(Vector<MathExpression> params) throws SyntaxErrorException;
 }

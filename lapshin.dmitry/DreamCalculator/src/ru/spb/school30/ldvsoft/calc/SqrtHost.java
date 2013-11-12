@@ -15,7 +15,7 @@ public class SqrtHost implements FunctionHost
 	@Override
 	public int getPriority()
 	{
-		return 1;
+		return FUNCTION_PRIORITY;
 	}
 
 	@Override

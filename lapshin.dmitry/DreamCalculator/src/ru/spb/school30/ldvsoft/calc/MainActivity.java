@@ -91,11 +91,4 @@ public class MainActivity extends Activity
 		findViewById(buttonMultiply).setOnClickListener(digitButtonListener);
 		findViewById(buttonDivide  ).setOnClickListener(digitButtonListener);
 	}
-
-	@Override
-	protected void onStart()
-	{
-		super.onStart();
-		findViewById(buttonIntegral).callOnClick();
-	}
 }

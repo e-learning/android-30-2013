@@ -20,6 +20,11 @@ public class Calculator
 		return mode;
 	}
 
+	public static void setMode(Mode aMode)
+	{
+		mode = aMode;
+	}
+
 	public static MathValue calculate(String userInput)
 	{
 		MathExpression expression;
