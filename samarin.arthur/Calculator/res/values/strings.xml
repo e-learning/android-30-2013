@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="textMinus">-</string>
+    <string name="text9">9</string>
+    <string name="text8">8</string>
+    <string name="text7">7</string>
+    <string name="textPlus">+</string>
+    <string name="text6">6</string>
+    <string name="text5">5</string>
+    <string name="text4">4</string>
+    <string name="text1">1</string>
+    <string name="text2">2</string>
+    <string name="text3">3</string>
+    <string name="textSqrt">Sqrt</string>
+    <string name="textPoint">,</string>
+    <string name="text0">0</string>
+    <string name="textMultiply">*</string>
+    <string name="textDivide">/</string>
+    <string name="textNumViewDefault">0</string>
+    <string name="textReset">C</string>
+    <string name="textMemoryAdd">M+</string>
+    <string name="textMemoryReturn">MR</string>
+    <string name="textMemoryClear">MC</string>
+    <string name="textPowMinusOne">1/x</string>
+    <string name="textPow">**</string>
+    <string name="textLog">log</string>
+    <string name="textCalculate">=</string>
+    <string name="textPlusMinus">+/-</string>
+</resources>
