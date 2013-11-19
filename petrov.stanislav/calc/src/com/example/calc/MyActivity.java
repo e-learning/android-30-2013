@@ -1,6 +1,7 @@
 package com.example.calc;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.preference.PreferenceScreen;
@@ -16,167 +17,7 @@ public class MyActivity extends Activity {
     String s1;
     String s2;
     Bitmap bm;
-
-    public String Pars2(String S) {
-        int i = 0;
-        int j = 0;
-        int m;
-        char c = 0;
-        i = S.length();
-        for (m = j = S.indexOf('('); j < i; j++)
-        {
-            i = S.length();
-            if ((c = S.charAt(j)) == '(')
-                m = j;
-            else if(c == ')')
-            {
-                S = S.substring(0, m) + Pars(S.substring(m + 1, j)) + S.substring(j + 1, i);
-                m = j = S.indexOf('(');
-            }
-        }
-        return S;
-    }
-
-    public String Pars(String S) {
-      String res = "";
-      String res1 = "";
-      int i = 0;
-      int j = 0;
-      char c = 0;
-      double r = 0;
-      i = S.length();
-     /* if (s.charAt(0) == 'T' )
-          res1 = "TI TUPOI CHTO LI???";
-      else
-      if (((s.charAt(i - 2) == '/') || (s.charAt(i - 2) == '*') || (s.charAt(i - 2) == '-') || (s.charAt(i - 2) == '+' )) && (S.charAt(j + 1) == ' ' && c == '-'))
-          res1 = "TI DURAK";
-      else*/
-          while(i > j)
-          {
-            res = "";
-            c = S.charAt(j);
-            if((c != '+' && c != '-' && c != '/' && c != '*') || (S.charAt(j + 1) != ' ' && c == '-'))
-            {
-              res1 += c;
-            }
-            else if (c == '-'&& S.charAt(j + 1) == ' ')
-            {
-                j++;
-                c = S.charAt(j);
-                while(i > j && ((c != '+' && c != '-' && c != '/' && c != '*') || (S.charAt(j + 1) != ' ' && c == '-')))
-                {
-                    res += c;
-                    j++;
-                    if (i == j)
-                        break;
-                    c = S.charAt(j);
-                }
-                r = Double.parseDouble(res1) - Double.parseDouble(res);
-                res1 = Double.toString(r);
-                j--;
-            }
-            else if (c == '+')
-            {
-                j++;
-                c = S.charAt(j);
-                while(i > j && ((c != '+' && c != '-' && c != '/' && c != '*') || (S.charAt(j + 1) != ' ' && c == '-')))
-                {
-                    res += c;
-                    j++;
-                    if (i == j)
-                        break;
-                    c = S.charAt(j);
-                }
-                r = Double.parseDouble(res1) + Double.parseDouble(res);
-                res1 = Double.toString(r);
-                j--;
-            }
-            else if (c == '/')
-            {
-                j++;
-                c = S.charAt(j);
-                while(i > j && ((c != '+' && c != '-' && c != '/' && c != '*') || (S.charAt(j + 1) != ' ' && c == '-')))
-                {
-                    res += c;
-                    j++;
-                    if (i == j)
-                        break;
-                    c = S.charAt(j);
-                }
-                r = Double.parseDouble(res1) / Double.parseDouble(res);
-                res1 = Double.toString(r);
-                j--;
-            }
-            else if (c == '*')
-            {
-                j++;
-                c = S.charAt(j);
-                while(i > j && ((c != '+' && c != '-' && c != '/' && c != '*') || (S.charAt(j + 1) != ' ' && c == '-')))
-                {
-                    res += c;
-                    j++;
-                    if (i == j)
-                        break;
-                    c = S.charAt(j);
-
-                }
-                r = Double.parseDouble(res1) * Double.parseDouble(res);
-                res1 = Double.toString(r);
-                j--;
-            }
-            j++;
-          }
-          return res1;
-    }
-
-    String Pars3( String S )
-    {
-        int i, l, r;
-        String S2;
-        char c;
-        for (i = 0; i < S.length(); i++)
-        {
-            char c1 = S.charAt(i);
-            S2 = " ";
-            if(c1 == '/' || c1 == '*')
-            {
-                l = i - 2;
-                c = S.charAt(l);
-                while(c != ' ')
-                {
-                    l--;
-                    if(l < 0)
-                        break;
-                    c = S.charAt(l);
-                }
-                int l1 = l;
-                while(l1 != (i - 2))
-                {
-                    c = S.charAt(l1+1);
-                    S2 += c;
-                    l1++;
-                }
-                S2 += " "  + c1 + " ";
-                r = i + 2;
-                c = S.charAt(r);
-                while(c != ' ')
-                {
-                    S2 += c;
-                    r++;
-                    if(r >= S.length())
-                        break;
-                    c = S.charAt(r);
-                }
-
-                if (S2.charAt(0) == ' ')
-                    S2 = S2.substring(1, S2.length());
-
-                S = S.substring(0, l) + " " + Pars(S2) + S.substring(r, S.length());
-            }
-
-        }
-        return S;
-    }
+    Parser P = new Parser();
 
     void BrezenhemeLine2(int x1, int y1, int x2, int y2)
     {
@@ -438,8 +279,21 @@ public class MyActivity extends Activity {
         bH.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view9) {
-                TextView t = (TextView) findViewById(R.id.editText);
-                t.setText(s2);
+                Intent i = new Intent();
+                i.setClass(getApplicationContext(), MyClass.class);
+                i.putExtra("s2", s2);
+                startActivity(i);
+                ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
+            }
+        });
+        Button babout = (Button)findViewById(R.id.buttonabout);
+        babout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view9) {
+                Intent i = new Intent();
+                i.setClass(getApplicationContext(), MyClass.class);
+                startActivity(i);
+
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
         });
@@ -453,6 +307,48 @@ public class MyActivity extends Activity {
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
         });
+
+        Button bsin = (Button)findViewById(R.id.buttonsin);
+        bsin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view9) {
+                TextView t = (TextView) findViewById(R.id.editText);
+                s+="sin( ";
+                t.setText(s);
+                ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
+            }
+        });
+        Button bcos = (Button)findViewById(R.id.buttoncos);
+        bcos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view9) {
+                TextView t = (TextView) findViewById(R.id.editText);
+                s+="cos( ";
+                t.setText(s);
+                ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
+            }
+        });
+        Button btg = (Button)findViewById(R.id.buttontg);
+        btg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view9) {
+                TextView t = (TextView) findViewById(R.id.editText);
+                s+="tg( ";
+                t.setText(s);
+                ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
+            }
+        });
+        Button bctg = (Button)findViewById(R.id.buttonctg);
+        bctg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view9) {
+                TextView t = (TextView) findViewById(R.id.editText);
+                s+="ctg( ";
+                t.setText(s);
+                ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
+            }
+        });
+
         Button bR = (Button)findViewById(R.id.buttonR);
         bR.setOnClickListener(new View.OnClickListener() {
           @Override
@@ -462,12 +358,11 @@ public class MyActivity extends Activity {
 
             // s = "( ( 1 + 1 ) * 2 ) + (1 + 1)";
 
-             if (s.indexOf("(") != -1 && s.indexOf(")") != -1)
-                 s = ' ' + Pars2(s);
-             if(s.indexOf('*') != -1 || s.indexOf('/') != -1)
-                  s = ' ' + Pars3(s);
             // if (s.indexOf("-") != -1 || s.indexOf("+") != -1)
-                 s = ' ' + Pars(s);
+              if(s.charAt(0) == ' ')
+                  s = P.Pars(s);
+              else
+                  s = ' ' + P.Pars(s);
              s2 += s1 + " = " + s + "\n";
              t.setText(s1 + " = " + s);
         }
@@ -493,17 +388,14 @@ public class MyActivity extends Activity {
                 int oldy = 0;
                 for(j = -1 * Disp.widthPixels / 2; j < Disp.widthPixels / 2; j += 1)
                 {
+                    if (flag == 1)
+                      oldy = (int)Double.parseDouble(s1);
                     s1 = s.substring(0, s.indexOf('X')) + Double.toString(j) + s.substring(s.indexOf('X') + 1, s.length());
                     while(s1.indexOf('X') != -1)
                       s1 = s1.substring(0, s1.indexOf('X')) + Double.toString(j) + s1.substring(s1.indexOf('X') + 1, s1.length());
-                    if (flag == 1)
-                      oldy = (int)Double.parseDouble(s2);
-                    if (s.indexOf("(") != -1 && s.indexOf(")") != -1)
-                        s1 = Pars2(s1);
-                    if (s.indexOf("/") != -1 || s.indexOf("*") != -1)
-                        s1 = Pars3(s1);
-                   // if (s.indexOf("-") != -1 || s.indexOf("+") != -1)
-                        s1 = Pars(s1);
+
+                    s1 = P.Pars(s1);
+
                     flag = 1;
                     try
                     {
