@@ -20,7 +20,7 @@
             <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2"
                     android:id="@+id/button2" android:layout_column="1" android:layout_weight="4"
                     android:textSize="30dp"/>
-            <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3"
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3"
                     android:id="@+id/button3" android:layout_column="2" android:layout_weight="4"
                     android:textSize="30dp"/>
             <Button
@@ -28,6 +28,12 @@
                     android:layout_height="wrap_content"
                     android:text="*"
                     android:id="@+id/buttonum" android:layout_column="3" android:layout_weight="4"
+                    android:textSize="30dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="D"
+                    android:id="@+id/buttond" android:layout_column="4" android:layout_weight="4"
                     android:textSize="30dp"/>
         </TableRow>
         <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent"
@@ -47,6 +53,12 @@
                     android:text="/"
                     android:id="@+id/buttondel" android:layout_column="3" android:layout_weight="4"
                     android:textSize="30dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="H"
+                    android:id="@+id/buttonH" android:layout_column="4" android:layout_weight="4"
+                    android:textSize="30dp"/>
         </TableRow>
         <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent"
                   android:layout_gravity="bottom">
@@ -64,6 +76,12 @@
                     android:layout_height="wrap_content"
                     android:text="+"
                     android:id="@+id/buttonplus" android:layout_column="3" android:layout_weight="4"
+                    android:textSize="30dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="h"
+                    android:id="@+id/button15" android:layout_column="4" android:layout_weight="4"
                     android:textSize="30dp"/>
         </TableRow>
         <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent"
@@ -88,6 +106,12 @@
                     android:layout_height="wrap_content"
                     android:text=")"
                     android:id="@+id/button10" android:layout_column="3" android:layout_weight="4"
+                    android:textSize="30dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="h"
+                    android:id="@+id/button14" android:layout_column="4" android:layout_weight="4"
                     android:textSize="30dp"/>
         </TableRow>
         <TableRow
@@ -116,6 +140,11 @@
                     android:text="+/-"
                     android:id="@+id/button12" android:layout_column="3" android:layout_weight="3"
                     android:textSize="30dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="H"
+                    android:id="@+id/button18" android:layout_weight="4" android:textSize="30dp"/>
         </TableRow>
         <TableRow
                 android:layout_width="fill_parent"
@@ -140,6 +169,12 @@
                     android:layout_height="wrap_content"
                     android:text="ctg"
                     android:id="@+id/buttonctg" android:layout_weight="4" android:textSize="30dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="h"
+                    android:id="@+id/button17" android:layout_column="4" android:layout_weight="4"
+                    android:textSize="30dp"/>
         </TableRow>
         <TableRow
                 android:layout_width="fill_parent"
@@ -164,6 +199,12 @@
                     android:layout_height="wrap_content"
                     android:text="rand"
                     android:id="@+id/buttonrand" android:layout_weight="4" android:textSize="30dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="h"
+                    android:id="@+id/button16" android:layout_column="4" android:layout_weight="4"
+                    android:textSize="30dp"/>
         </TableRow>
         <ImageButton
                 android:layout_width="fill_parent"

@@ -145,6 +145,8 @@ public class MyActivity extends Activity {
                 while(c != ' ')
                 {
                     l--;
+                    if(l < 0)
+                        break;
                     c = S.charAt(l);
                 }
                 int l1 = l;
@@ -165,6 +167,10 @@ public class MyActivity extends Activity {
                         break;
                     c = S.charAt(r);
                 }
+
+                if (S2.charAt(0) == ' ')
+                    S2 = S2.substring(1, S2.length());
+
                 S = S.substring(0, l) + " " + Pars(S2) + S.substring(r, S.length());
             }
 
@@ -212,6 +218,7 @@ public class MyActivity extends Activity {
         setContentView(R.layout.main);
         s = new String();
         s = " ";
+        s2 = "";
         Button b = (Button)findViewById(R.id.button0);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -415,6 +422,27 @@ public class MyActivity extends Activity {
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
         });
+
+        Button bd = (Button)findViewById(R.id.buttond);
+        bd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view9) {
+                TextView t = (TextView) findViewById(R.id.editText);
+                if (s.length() > 0)
+                  s = s.substring(0, s.length() - 1);
+                t.setText(s);
+                ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
+            }
+        });
+        Button bH = (Button)findViewById(R.id.buttonH);
+        bH.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view9) {
+                TextView t = (TextView) findViewById(R.id.editText);
+                t.setText(s2);
+                ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
+            }
+        });
         Button bx = (Button)findViewById(R.id.buttonX);
         bx.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -431,14 +459,16 @@ public class MyActivity extends Activity {
         public void onClick(View view9) {
              TextView t = (TextView) findViewById(R.id.editText);
              s1 = s;
+
             // s = "( ( 1 + 1 ) * 2 ) + (1 + 1)";
 
              if (s.indexOf("(") != -1 && s.indexOf(")") != -1)
-                 s = Pars2(s);
+                 s = ' ' + Pars2(s);
              if(s.indexOf('*') != -1 || s.indexOf('/') != -1)
-                  s = Pars3(s);
+                  s = ' ' + Pars3(s);
             // if (s.indexOf("-") != -1 || s.indexOf("+") != -1)
-                 s = Pars(s);
+                 s = ' ' + Pars(s);
+             s2 += s1 + " = " + s + "\n";
              t.setText(s1 + " = " + s);
         }
         ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
@@ -469,16 +499,16 @@ public class MyActivity extends Activity {
                     if (flag == 1)
                       oldy = (int)Double.parseDouble(s2);
                     if (s.indexOf("(") != -1 && s.indexOf(")") != -1)
-                        s2 = Pars2(s1);
+                        s1 = Pars2(s1);
                     if (s.indexOf("/") != -1 || s.indexOf("*") != -1)
-                        s2 = Pars3(s1);
+                        s1 = Pars3(s1);
                    // if (s.indexOf("-") != -1 || s.indexOf("+") != -1)
-                        s2 = Pars(s1);
+                        s1 = Pars(s1);
                     flag = 1;
                     try
                     {
                         if (flag == 1)
-                           BrezenhemeLine2((int)((j - 1) * 10 + Disp.widthPixels / 2) ,(int)(oldy * -1 + Disp.heightPixels / 2), (int)(j * 10 + Disp.widthPixels / 2), (int)(Double.parseDouble(s2) * -1 + Disp.heightPixels / 2));
+                           BrezenhemeLine2((int)((j - 1) * 10 + Disp.widthPixels / 2) ,(int)(oldy * -1 + Disp.heightPixels / 2), (int)(j * 10 + Disp.widthPixels / 2), (int)(Double.parseDouble(s1) * -1 + Disp.heightPixels / 2));
                         //bm.setPixel(((int)j * 10 + Disp.widthPixels / 2 ), (int)(Double.parseDouble(s2)) * -1 + Disp.heightPixels / 2 , 0xff00ffff);
                     }
                     catch (Exception Ex)
