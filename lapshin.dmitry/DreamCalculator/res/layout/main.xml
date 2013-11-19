@@ -3,6 +3,7 @@
 <LinearLayout
 		android:orientation="vertical"
 		android:layout_width="match_parent"
+		android:animateLayoutChanges="true"
 		android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
 	<EditText
 			android:layout_width="match_parent"
@@ -12,11 +13,12 @@
 	<TextView
 			android:layout_width="match_parent"
 			android:layout_height="0dp"
-			android:text="New Text"
-			android:id="@+id/textView" android:layout_weight="3" />
+			android:id="@+id/textView" android:layout_weight="3" android:gravity="center_vertical|center_horizontal"
+			android:textSize="24dp" />
 	<TableLayout
 			android:layout_width="match_parent"
-			android:layout_height="0dp" android:layout_weight="10" android:id="@+id/tableButtonsTop">
+			android:layout_height="0dp" android:layout_weight="10" android:id="@+id/tableButtonsTop"
+			>
 		<TableRow
 				android:layout_width="match_parent"
 				android:layout_height="match_parent" android:layout_weight="1" android:id="@+id/rowTop1">

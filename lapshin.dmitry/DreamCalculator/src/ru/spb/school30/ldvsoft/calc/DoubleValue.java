@@ -11,7 +11,7 @@ import java.text.DecimalFormat;
  */
 public class DoubleValue extends NumberValue
 {
-	public static final double EPS = 1E-8;
+	public static final double EPS = 1E-7;
 
 	private static DecimalFormat format = new DecimalFormat("0.########E0");
 
