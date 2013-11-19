@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+                  android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout">
+        <TableLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/textView" android:textColor="#04c4ae" android:layout_weight="1"
+                      android:textSize="48dp" android:textIsSelectable="false"/>
+            <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tableRow"
+                      android:layout_weight="1">
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="7"
+                        android:id="@+id/button" android:layout_weight="1" android:textColor="#91072c"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="8"
+                        android:id="@+id/button3" android:layout_weight="1" android:textColor="#91072c"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="9"
+                        android:id="@+id/button5" android:layout_column="2" android:layout_weight="1"
+                        android:textColor="#91072c" android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="+"
+                        android:id="@+id/button12" android:layout_column="3" android:layout_weight="1"
+                        android:textColor="#37ff5d" android:textStyle="normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="sin"
+                        android:id="@+id/button16" android:layout_weight="1" android:textColor="#00a091"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tableRow1"
+                      android:layout_weight="1">
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="4"
+                        android:id="@+id/button1" android:layout_weight="1" android:textColor="#91072c"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="5"
+                        android:id="@+id/button4" android:layout_weight="1" android:textColor="#91072c"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="6"
+                        android:id="@+id/button8" android:layout_weight="1" android:textColor="#91072c"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="-"
+                        android:id="@+id/button13" android:layout_column="3" android:layout_weight="1"
+                        android:textColor="#37ff5d" android:textStyle="normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="cos"
+                        android:id="@+id/button17" android:layout_weight="1" android:textColor="#00a091"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tableRow2"
+                      android:layout_weight="1">
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="1"
+                        android:id="@+id/button2" android:layout_weight="1" android:textColor="#91072c"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="2"
+                        android:id="@+id/button6" android:layout_weight="1" android:textColor="#91072c"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="3"
+                        android:id="@+id/button7" android:layout_weight="1" android:textColor="#91072c"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="*"
+                        android:id="@+id/button14" android:layout_column="3" android:layout_weight="1"
+                        android:textColor="#37ff5d" android:textStyle="normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="tan"
+                        android:id="@+id/button18" android:layout_weight="1" android:textColor="#00a091"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp" android:singleLine="false"/>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tableRow3"
+                      android:layout_weight="1">
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0"
+                        android:id="@+id/button9" android:layout_weight="1" android:textColor="#91072c"
+                        android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="."
+                        android:id="@+id/button10" android:layout_column="1" android:layout_weight="1"
+                        android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="c"
+                        android:id="@+id/button11" android:layout_column="2" android:layout_weight="1"
+                        android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="/"
+                        android:id="@+id/button15" android:layout_weight="1" android:textColor="#37ff5d"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="^"
+                        android:id="@+id/button22" android:layout_weight="1" android:textColor="#37ff5d"
+                        android:textStyle="bold|normal|italic" android:layout_column="4" android:textSize="42dp"/>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tableRow5"
+                      android:layout_weight="1">
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="="
+                        android:id="@+id/button19" android:layout_weight="1" android:textStyle="bold|normal|italic"
+                        android:textSize="42dp" android:layout_column="0" android:focusable="false"
+                        android:textColor="#37ff5d"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="("
+                        android:id="@+id/button20" android:layout_column="1" android:layout_weight="1"
+                        android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text=")"
+                        android:id="@+id/button21" android:layout_column="2" android:layout_weight="1"
+                        android:textSize="48dp"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="x"
+                        android:id="@+id/button23" android:layout_weight="1" android:textColor="#999900"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp" android:singleLine="false"
+                        android:layout_column="3"/>
+                <Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Г(x)"
+                        android:id="@+id/button24" android:layout_weight="1" android:textColor="#999900"
+                        android:textStyle="bold|normal|italic" android:textSize="48dp" android:singleLine="false"
+                        android:layout_column="4"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DreamCalculator</string>
+	<string name="btnShift">Shift</string>
+	<string name="btnMode">Mode</string>
+	<string name="btnCalc">CALC</string>
+	<string name="btnIntegral">Intgr</string>
+	<string name="btnSum">Sum</string>
+	<string name="btnReciprocal">1/X</string>
+	<string name="btnFraction">A/B</string>
+	<string name="btnSqrt">Sqrt</string>
+	<string name="btnSqr">Sqr</string>
+	<string name="btnPower">Pow</string>
+	<string name="btnLog">Log</string>
+	<string name="btnLn">Ln</string>
+	<string name="btnSign">(-)</string>
+	<string name="btnMinutesSeconds">\' \'\'</string>
+	<string name="btnHyp">hyp</string>
+	<string name="btnSin">sin</string>
+	<string name="btnCos">cos</string>
+	<string name="btnTan">tan</string>
+	<string name="btnRCL">RCL</string>
+	<string name="btnENG">ENG</string>
+	<string name="btnOpenBrace">(</string>
+	<string name="btnCloseBrace">)</string>
+	<string name="btnSDView"><![CDATA[S<=>D]]></string>
+	<string name="btnM">M+</string>
+</resources>

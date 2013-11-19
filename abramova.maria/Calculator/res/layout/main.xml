@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" android:textSize="45dp"/>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="C"
+                    android:id="@+id/clear"
+                    android:layout_weight="1" android:textColor="#ff0c1e" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="H"
+                    android:id="@+id/history"
+                    android:layout_weight="1" android:textColor="#ff7411" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="!"
+                    android:id="@+id/factorial" android:layout_weight="1" android:textColor="#0eb3ff"
+                    android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="/"
+                    android:id="@+id/divide"
+                    android:layout_weight="1" android:textColor="#ff5262" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="sin"
+                    android:id="@+id/sinus" android:layout_weight="1" android:textColor="#0eb3ff"
+                    android:textSize="45dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="7"
+                    android:id="@+id/id7"
+                    android:layout_weight="1" android:textColor="#9920ff" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="8"
+                    android:id="@+id/id8"
+                    android:layout_weight="1" android:textColor="#9920ff" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="9"
+                    android:id="@+id/id9"
+                    android:layout_weight="1" android:textColor="#9920ff" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="*"
+                    android:id="@+id/multiply"
+                    android:layout_weight="1" android:textColor="#ff5262" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="cos"
+                    android:id="@+id/cosinus" android:layout_weight="1" android:textColor="#0eb3ff"
+                    android:textSize="45dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="4"
+                    android:id="@+id/id4"
+                    android:layout_weight="1" android:textColor="#9920ff" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="5"
+                    android:id="@+id/id5"
+                    android:layout_weight="1" android:textColor="#9920ff" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="6"
+                    android:id="@+id/id6"
+                    android:layout_weight="1" android:textColor="#9920ff" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="-"
+                    android:id="@+id/subtract"
+                    android:layout_weight="1" android:textColor="#ff5262" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="tg"
+                    android:id="@+id/tangents" android:layout_weight="1" android:textColor="#0eb3ff"
+                    android:textSize="45dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="1"
+                    android:id="@+id/id1"
+                    android:layout_weight="1" android:textColor="#9920ff" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="2"
+                    android:id="@+id/id2"
+                    android:layout_weight="1" android:textColor="#9920ff" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="3"
+                    android:id="@+id/id3"
+                    android:layout_weight="1" android:textColor="#9920ff" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="+"
+                    android:id="@+id/add"
+                    android:layout_weight="1" android:textColor="#ff5262" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="ctg"
+                    android:id="@+id/cotangents" android:layout_weight="1" android:textColor="#0eb3ff"
+                    android:textSize="45dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="0"
+                    android:id="@+id/id0"
+                    android:layout_weight="1" android:textColor="#9920ff" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="."
+                    android:id="@+id/point"
+                    android:layout_weight="1" android:textColor="#ff7411" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="^"
+                    android:id="@+id/power" android:layout_weight="1" android:textColor="#0eb3ff"
+                    android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="="
+                    android:id="@+id/equal"
+                    android:layout_weight="1" android:textColor="#ff7411" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="sqrt"
+                    android:id="@+id/sqrt"
+                    android:layout_weight="1" android:textColor="#0eb3ff" android:textSize="45dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="("
+                    android:id="@+id/openbracket"
+                    android:layout_weight="1" android:textColor="#3e8b1a" android:textSize="45dp"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text=")"
+                    android:id="@+id/closebracket"
+                    android:layout_weight="1" android:textColor="#3e8b1a" android:textSize="45dp"/>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
+
