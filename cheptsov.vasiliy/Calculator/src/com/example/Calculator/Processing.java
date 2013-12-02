@@ -1,5 +1,6 @@
 package com.example.Calculator;
 
+import java.lang.ArithmeticException;
 import java.util.Stack;
 import java.util.Vector;
 
@@ -79,7 +80,10 @@ public class Processing {
 
                 while (i < Str.size() && Str.get(i).length() == 1) {
                     if (Str.get(i).equals("."))
-                        WasPoint = true;
+                        if (!WasPoint)
+                            WasPoint = true;
+                        else
+                            return false;
                     else if (Character.isDigit(Str.get(i).charAt(0))){
                         if (!WasPoint) {
                             res *= 10;
@@ -173,7 +177,7 @@ public class Processing {
     }
 
     // Evaluator calculator function
-    public double Evaluator() {
+    public double Evaluator() throws ArithmeticException {
         Stack<BaseToken> S = new Stack<BaseToken>();
         BaseTokQueue Q = new BaseTokQueue(DstQueue);
         BaseToken Tok;
@@ -183,11 +187,20 @@ public class Processing {
             Tok = Q.Get();
             if (Tok.GetTokenId() == TOKEN_ID.TOKEN_OPERAND)
                 S.push(Tok);
-            else if (((Operator)Tok).OperatorType == OPERATOR_TYPE.ONE_OPERAND)
-                S.push(((Operator)Tok).Eval((Operand)(S.pop())));
+            else if (((Operator)Tok).OperatorType == OPERATOR_TYPE.ONE_OPERAND) {
+                try {
+                    S.push(((Operator) Tok).Eval((Operand) (S.pop())));
+                } catch (ArithmeticException AE) {
+                    throw AE;
+                }
+            }
             else {
-                BaseToken b = S.pop();
-                S.push(((Operator)Tok).Eval((Operand)(S.pop()), (Operand)b));
+                try {
+                    BaseToken b = S.pop();
+                    S.push(((Operator)Tok).Eval((Operand)(S.pop()), (Operand)b));
+                } catch (ArithmeticException AE) {
+                    throw AE;
+                }
             }
         }
 

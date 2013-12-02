@@ -22,12 +22,12 @@ public class Operator extends BaseToken {
     }
 
     // Evaluation function
-    public Operand Eval(Operand a, Operand b) {
+    public Operand Eval(Operand a, Operand b) throws ArithmeticException {
         return new Operand(1);
     }
 
     // Evaluation function
-    public Operand Eval(Operand a) {
+    public Operand Eval(Operand a) throws  ArithmeticException {
         return new Operand(1);
     }
 

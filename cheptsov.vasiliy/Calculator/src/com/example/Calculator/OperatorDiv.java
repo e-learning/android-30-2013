@@ -14,6 +14,8 @@ public class OperatorDiv extends Operator {
 
     // Evaluation function
     public Operand Eval(Operand a, Operand b) {
+        if (b.GetValue() == 0)
+            throw new ArithmeticException();
         return new Operand(a.GetValue() / b.GetValue());
     }
 

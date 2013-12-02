@@ -5,7 +5,7 @@
       <profile>
         <option name="device" value="2.7in QVGA" />
         <option name="deviceConfiguration" value="Portrait" />
-        <option name="targetHashString" value="android-18" />
+        <option name="targetHashString" value="android-16" />
         <option name="theme" value="Theme" />
       </profile>
     </option>
@@ -24,14 +24,14 @@
     </option>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/com/example/Calculator/Processing.java" line="71" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/example/Calculator/Processing.java" line="72" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d7fab26-0a84-4cb5-8366-3b3350ff0211" name="Default" comment="" />
     <ignored path="Calculator.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383845576090" ignored="false" />
-    <file path="/Calculator.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383957847869" ignored="false" />
+    <file path="/fragment.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386012160286" ignored="false" />
+    <file path="/Calculator.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386023231097" ignored="false" />
     <file path="/main.xml" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383912006726" ignored="false" />
     <file path="/Token.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383644759230" ignored="false" />
     <file path="/Operation.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383592210473" ignored="false" />
@@ -39,30 +39,35 @@
     <file path="/TOKEN_ID.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383660457804" ignored="false" />
     <file path="/Operand.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383919294123" ignored="false" />
     <file path="/TokenInterface.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383662068336" ignored="false" />
-    <file path="/Operator.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383761479123" ignored="false" />
+    <file path="/Operator.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386001713079" ignored="false" />
     <file path="/OperatorAdd.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383761677331" ignored="false" />
     <file path="/OperatorSub.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383761804025" ignored="false" />
     <file path="/OperatorMul.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383761762274" ignored="false" />
-    <file path="/OperatorDiv.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383926120761" ignored="false" />
+    <file path="/OperatorDiv.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386001868374" ignored="false" />
     <file path="/OperatorNeg.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383664320034" ignored="false" />
-    <file path="/OperatorABS.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383761644738" ignored="false" />
+    <file path="/OperatorABS.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386001737206" ignored="false" />
     <file path="/OperatorSIN.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383846901361" ignored="false" />
     <file path="/OperatorCOS.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383846894748" ignored="false" />
     <file path="/OperatorTAN.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383846886179" ignored="false" />
     <file path="/OperatorCAT.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383846876468" ignored="false" />
-    <file path="/OperatorFact.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383921766112" ignored="false" />
-    <file path="/OperatorSQRT.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383761793457" ignored="false" />
+    <file path="/OperatorFact.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386001925255" ignored="false" />
+    <file path="/OperatorSQRT.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386001989670" ignored="false" />
     <file path="/OperatorOpenSc.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383761773625" ignored="false" />
     <file path="/OperatorCloseSc.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383761709329" ignored="false" />
-    <file path="/Processing.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383920306174" ignored="false" />
+    <file path="/Processing.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386003580579" ignored="false" />
     <file path="/PARSER_STATE.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383730054312" ignored="false" />
     <file path="/OPERATOR_TYPE.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383748610494" ignored="false" />
     <file path="/OPERAATOR_TYPE.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383746528973" ignored="false" />
     <file path="/BaseTokQueue.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383920129549" ignored="false" />
-    <file path="/Dummy.txt" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383861685227" ignored="false" />
+    <file path="/Dummy.txt" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386014283732" ignored="false" />
     <file path="/Bitmap.xml" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383861910655" ignored="false" />
     <file path="/OPERAND_TYPE.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383912247084" ignored="false" />
-    <file path="/bitmap.xml" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1383918387880" ignored="false" />
+    <file path="/bitmap.xml" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386018089447" ignored="false" />
+    <file path="/GraphicActivity.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386022533385" ignored="false" />
+    <file path="/EvalError.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386000603676" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386017486488" ignored="false" />
+    <file path="/Graphic.java" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386011972511" ignored="false" />
+    <file path="/graphic_error.xml" changelist="0d7fab26-0a84-4cb5-8366-3b3350ff0211" time="1386014468904" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +87,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -119,6 +123,83 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Calculator/OperatorSQRT.java" line="16" class="com.example.Calculator.OperatorSQRT" package="com.example.Calculator">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Calculator/Operator.java" line="30" class="com.example.Calculator.Operator" package="com.example.Calculator">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Calculator/Calculator.java" line="140" class="com.example.Calculator.Calculator$2" package="com.example.Calculator">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Calculator/Calculator.java" line="105" class="com.example.Calculator.Calculator$2" package="com.example.Calculator">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Calculator/Calculator.java" line="111" class="com.example.Calculator.Calculator$2" package="com.example.Calculator">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -132,82 +213,72 @@
       <file leaf-file-name="Processing.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/Processing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="65" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
+            <state line="101" column="41" selection-start="4055" selection-end="4055" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7463#7474#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperatorFact.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/OperatorFact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/Operand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="20" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/Operator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseTokQueue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/BaseTokQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1089#1100#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseToken.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/BaseToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Calculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="39" selection-start="8069" selection-end="8069" vertical-scroll-proportion="-1.7031802">
+            <state line="99" column="25" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#508#516#0" expanded="true" />
-                <element signature="e#3800#3929#0" expanded="true" />
-                <element signature="e#3918#3919#0" expanded="true" />
-                <element signature="e#4789#9284#0" expanded="true" />
-                <element signature="e#9277#9278#0" expanded="true" />
+                <element signature="e#571#579#0" expanded="true" />
+                <element signature="e#3863#3992#0" expanded="true" />
+                <element signature="e#3981#3982#0" expanded="true" />
+                <element signature="e#4608#7161#0" expanded="true" />
+                <element signature="e#7154#7155#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperatorDiv.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/OperatorDiv.java">
+      <file leaf-file-name="GraphicActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/GraphicActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="63" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+            <state line="107" column="26" selection-start="4167" selection-end="4167" vertical-scroll-proportion="4.929539">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#493#501#0" expanded="true" />
+                <element signature="e#665#1313#0" expanded="true" />
+                <element signature="e#1306#1307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bitmap.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/bitmap.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="43" column="31" selection-start="1771" selection-end="1771" vertical-scroll-proportion="-12.2">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="252" column="48" selection-start="10958" selection-end="10958" vertical-scroll-proportion="-1.68">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="53" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -223,22 +294,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorSQRT.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorSub.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorCAT.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorTAN.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorCOS.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorSIN.java" />
-        <option value="$PROJECT_DIR$/res/layout/Bitmap.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/Calculator/OPERAND_TYPE.java" />
-        <option value="$PROJECT_DIR$/res/layout/bitmap.xml" />
         <option value="$PROJECT_DIR$/src/com/example/Calculator/Operand.java" />
         <option value="$PROJECT_DIR$/src/com/example/Calculator/BaseTokQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorFact.java" />
+        <option value="$PROJECT_DIR$/Calculator.iml" />
+        <option value="$PROJECT_DIR$/src/com/example/Calculator/EvalError.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Calculator/Operator.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorABS.java" />
         <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorDiv.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorFact.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Calculator/OperatorSQRT.java" />
         <option value="$PROJECT_DIR$/src/com/example/Calculator/Processing.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Calculator/Graphic.java" />
+        <option value="$PROJECT_DIR$/res/layout/graphic_error.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/bitmap.xml" />
         <option value="$PROJECT_DIR$/src/com/example/Calculator/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Calculator/GraphicActivity.java" />
       </list>
     </option>
   </component>
@@ -247,6 +318,22 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -274,6 +361,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -342,25 +430,119 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-xhdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-mdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-ldpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="options.lastSelected" value="preferences.general" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="000ee13c1d6b11" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="MyAvd00" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -370,6 +552,15 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -388,6 +579,36 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GriffonRunConfigurationType" factoryName="Griffon">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -436,6 +657,22 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -544,28 +781,28 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0780303" sideWeight="0.67291313" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.67291313" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16666667" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12575758" sideWeight="0.6712095" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47359455" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.439523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67291313" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17045455" sideWeight="0.52640545" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16136363" sideWeight="0.67291313" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -639,21 +876,54 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/ANDROID/sdk/platforms/android-18/android.jar!/android/os/Looper.class">
+    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/OperatorAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="766" selection-end="766" vertical-scroll-proportion="0.3631124" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/OPERATOR_TYPE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="15" column="23" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/OPERAND_TYPE.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/OperatorDiv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+        <state line="17" column="45" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/OperatorFact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/OperatorSQRT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="21" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/graphic_error.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="394" selection-end="394" vertical-scroll-proportion="-3.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="53" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -663,110 +933,160 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="262" column="49" selection-start="11405" selection-end="11405" vertical-scroll-proportion="-17.92">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/example/Calculator/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+        <state line="252" column="48" selection-start="10958" selection-end="10958" vertical-scroll-proportion="-1.68">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/bitmap.xml">
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="493" selection-end="493" vertical-scroll-proportion="-3.74">
+      <provider editor-type-id="text-editor">
+        <state line="43" column="31" selection-start="1771" selection-end="1771" vertical-scroll-proportion="-12.2">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/Operand.java">
+    <entry file="file://$USER_HOME$/Program Files/ANDROID/sdk/sources/android-16/android/app/Instrumentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="20" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+        <state line="1093" column="0" selection-start="41909" selection-end="41909" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/BaseTokQueue.java">
+    <entry file="file://$USER_HOME$/Program Files/ANDROID/sdk/sources/android-16/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1089#1100#0" expanded="true" />
+            <element signature="e#0#217880#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/OperatorDiv.java">
+    <entry file="file://$USER_HOME$/Program Files/ANDROID/sdk/sources/android-16/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+        <state line="91" column="0" selection-start="3871" selection-end="3904" vertical-scroll-proportion="0.669967">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/BaseToken.java">
+    <entry file="file://$USER_HOME$/Program Files/ANDROID/sdk/sources/android-16/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ANDROID/sdk/platforms/android-18/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="548" selection-end="628" vertical-scroll-proportion="0.33206108">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ANDROID/sdk/platforms/android-18/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="949" column="19" selection-start="42350" selection-end="42350" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+        <state line="17297" column="0" selection-start="663513" selection-end="663513" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/Processing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="65" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
+        <state line="101" column="41" selection-start="4055" selection-end="4055" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7463#7474#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/OperatorFact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="39" selection-start="8069" selection-end="8069" vertical-scroll-proportion="-1.7031802">
+        <state line="99" column="25" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#508#516#0" expanded="true" />
-            <element signature="e#3800#3929#0" expanded="true" />
-            <element signature="e#3918#3919#0" expanded="true" />
-            <element signature="e#4789#9284#0" expanded="true" />
-            <element signature="e#9277#9278#0" expanded="true" />
+            <element signature="e#571#579#0" expanded="true" />
+            <element signature="e#3863#3992#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
+            <element signature="e#4608#7161#0" expanded="true" />
+            <element signature="e#7154#7155#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Calculator/GraphicActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="26" selection-start="4167" selection-end="4167" vertical-scroll-proportion="4.929539">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#493#501#0" expanded="true" />
+            <element signature="e#665#1313#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android 4.3 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Calculator</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
