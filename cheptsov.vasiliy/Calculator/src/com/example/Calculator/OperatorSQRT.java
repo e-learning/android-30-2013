@@ -14,6 +14,8 @@ public class OperatorSQRT extends Operator {
 
     // Evaluation function
     public Operand Eval(Operand a) {
+        if (a.GetValue() < 0)
+            throw new ArithmeticException();
         return new Operand(Math.sqrt(a.GetValue()));
     }
 

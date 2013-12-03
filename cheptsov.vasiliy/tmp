@@ -1,0 +1,40 @@
+            } else if (((Button)view).getText().toString().equals("Paint")) {
+                if (!Proc.Scanner(CalcString)) {
+                    CalcTextView.setText("Scanner error");
+                    Proc.Reset();
+                    CalcString.clear();
+                    CalcWasFunction = false;
+                    return;
+                }
+                if (!Proc.Parser()) {
+                    CalcTextView.setText("Parser error");
+                    Proc.Reset();
+                    CalcString.clear();
+                    CalcWasFunction = false;
+                    return;
+                }
+                DisplayMetrics DM = new DisplayMetrics();
+                getWindowManager().getDefaultDisplay().getMetrics(DM);
+                Bitmap BM = Bitmap.createBitmap(DM.widthPixels, DM.heightPixels, Bitmap.Config.ARGB_8888);
+                for (int i = 0; i < DM.heightPixels; i++)
+                    BM.setPixel(DM.widthPixels / 2, i, 0xffff0000);
+                for (int i = 0; i < DM.widthPixels; i++)
+                    BM.setPixel(i, DM.heightPixels / 2, 0xff0000ff);
+                boolean IsFirstPoint = true;
+                int OldY = 0;
+                for (int x = 0; x < DM.widthPixels; x++) {
+                    Proc.SetAllVariables(x - DM.widthPixels / 2);
+                    double res = Proc.Evaluator();
+                    int y = -(int)res + DM.heightPixels / 2;
+                    y = Clamp(y, DM.heightPixels, 0);
+                    if (x >= 0 && x < DM.widthPixels && y >= 0 && y < DM.heightPixels)
+                        BM.setPixel(x, y, 0xffffffff);
+                    IsFirstPoint = false;
+                }
+                Proc.Reset();
+                CalcWasFunction = false;
+                CalcString.clear();
+                SetGraphicField();
+                ImageButton IB = (ImageButton)findViewById(R.id.imageButtonPicture);
+                IB.setImageBitmap(BM);
+                return;

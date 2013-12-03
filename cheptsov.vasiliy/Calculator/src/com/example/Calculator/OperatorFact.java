@@ -15,7 +15,7 @@ public class OperatorFact extends Operator {
     // Evaluation function
     public Operand Eval(Operand a) {
         if (a.GetValue() <= 0)
-            return new Operand(0);
+            throw new ArithmeticException();
 
         double res = 1;
         for (int i = 1; i <= a.GetValue(); i++)

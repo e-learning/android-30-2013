@@ -1,6 +1,8 @@
 package com.example.Calculator;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -77,19 +79,6 @@ public class Calculator extends Activity {
         });
     }
 
-    // Put Bresentham line function
-    private void PutLine(Bitmap BM, int W, int H, int x, int OldY, int y) {
-        if (OldY <= y && ((y >= 0 && y < H) || (OldY >= 0 && OldY < H))) {
-            for (int i = OldY; i <= y; i++)
-                if (x >= 0 && x < W && i >= 0 && i < H)
-                    BM.setPixel(x, i, 0xffffffff);
-        } else if (OldY >= y && ((y >= 0 && y < H) || (OldY >= 0 && OldY < H))) {
-            for (int i = OldY; i >= y; i--)
-                if (x >= 0 && x < H && i >= 0 && i < H)
-                    BM.setPixel(x, i, 0xffffffff);
-        }
-    }
-
     private int Clamp(int Value, int Max, int Min ) {
         if (Value > Max)
             return Max;
@@ -99,104 +88,77 @@ public class Calculator extends Activity {
             return Value;
     }
 
+    private void Paint() {
+        String Line = "";
+        if (CalcWasFunction)
+            Line += "f(x)=";
+        for (int i = 0; i < CalcString.size(); i++)
+            if (CalcString.get(i).equals("+/-"))
+                Line += "-";
+            else
+                Line += CalcString.get(i);
+        CalcTextView.setText(Line);
+    }
+
     private final View.OnClickListener ClickListener = new View.OnClickListener() {
         public void onClick(View view) {
             if (((Button)view).getText().toString().equals("Clear")) {
                 if (CalcString.size() > 0)
                     CalcString.removeAllElements();
                 CalcWasFunction = false;
+                Paint();
+                return;
             } else if (((Button)view).getText().toString().equals("BcSp")) {
-                if (CalcString.size() > 0)
-                    CalcString.remove((int) CalcString.size() - 1);
-                else
+                if (CalcString.size() > 0) {
+                    CalcString.removeElementAt(CalcString.size() - 1);
+                    Paint();
+                    return;
+                }
+                else {
                     CalcWasFunction = false;
+                    Paint();
+                    return;
+                }
             } else if (((Button)view).getText().toString().equals("f(x)="))
                 CalcWasFunction = true;
             else if (((Button)view).getText().toString().equals("=")) {
                 if (!Proc.Scanner(CalcString)) {
                     CalcTextView.setText("Scanner error");
                     Proc.Reset();
-                    CalcString.clear();
+                    CalcString.removeAllElements();
                     CalcWasFunction = false;
                     return;
                 }
                 if (!Proc.Parser()) {
                     CalcTextView.setText("Parser error");
                     Proc.Reset();
-                    CalcString.clear();
-                    CalcWasFunction = false;
-                }
-                CalcTextView.setText("" + Proc.Evaluator());
-                CalcString.clear();
-                CalcWasFunction = false;
-                return;
-                /*
-                double res = Proc.Evaluator();
-                String s = new String("" + res);
-                Proc.Reset();
-                CalcString.clear();
-                for (int i = 0; i < s.length(); i++)
-                    CalcString.add("" + s.toCharArray()[i]);
-                */
-            } else if (((Button)view).getText().toString().equals("Paint")) {
-                if (!Proc.Scanner(CalcString)) {
-                    CalcTextView.setText("Scanner error");
-                    Proc.Reset();
-                    CalcString.clear();
+                    CalcString.removeAllElements();
                     CalcWasFunction = false;
                     return;
                 }
-                if (!Proc.Parser()) {
-                    CalcTextView.setText("Parser error");
-                    Proc.Reset();
-                    CalcString.clear();
-                    CalcWasFunction = false;
+                double res = 0;
+                try {
+                    res = Proc.Evaluator();
+                    CalcTextView.setText("" + res);
+                } catch (ArithmeticException AE) {
+                    CalcTextView.setText("Arithmetical error");
                 }
-                DisplayMetrics DM = new DisplayMetrics();
-                getWindowManager().getDefaultDisplay().getMetrics(DM);
-                Bitmap BM = Bitmap.createBitmap(DM.widthPixels, DM.heightPixels, Bitmap.Config.ARGB_8888);
-                for (int i = 0; i < DM.heightPixels; i++)
-                    BM.setPixel(DM.widthPixels / 2, i, 0xffff0000);
-                for (int i = 0; i < DM.widthPixels; i++)
-                    BM.setPixel(i, DM.heightPixels / 2, 0xff0000ff);
-                boolean IsFirstPoint = true;
-                int OldY = 0;
-                for (int x = 0; x < DM.widthPixels; x++) {
-                    Proc.SetAllVariables(x - DM.widthPixels / 2);
-                    double res = Proc.Evaluator();
-                    int y = -(int)res + DM.heightPixels / 2;
-                    if (res == (1.0 / 0)) {
-                        PutLine(BM, DM.widthPixels, DM.heightPixels, x-1, OldY, Clamp(-y, DM.heightPixels, 0));
-                        IsFirstPoint = true;
-                    }
-                    y = Clamp(y, DM.heightPixels, 0);
-                    if (IsFirstPoint) {
-                        if (x >= 0 && x < DM.widthPixels && y >= 0 && y < DM.heightPixels)
-                            BM.setPixel(x, y, 0xffffffff);
-                        IsFirstPoint = false;
-                    } else
-                        PutLine(BM, DM.widthPixels, DM.heightPixels, x, OldY, y);
-                    OldY = y;
-                }
+                CalcString.removeAllElements();
                 Proc.Reset();
                 CalcWasFunction = false;
-                CalcString.clear();
-                SetGraphicField();
-                ImageButton IB = (ImageButton)findViewById(R.id.imageButtonPicture);
-                IB.setImageBitmap(BM);
                 return;
+            } if (((Button)view).getText().toString().equals("Paint")) {
+                Intent intent = new Intent();
+                intent.setClass(getBaseContext(), GraphicActivity.class);
+                intent.putExtra("NoofExtras", CalcString.size());
+                for (int i = 0; i < CalcString.size(); i++)
+                    intent.putExtra("Extra" + i, CalcString.elementAt(i));
+                startActivity(intent);
+                CalcTextView.setText("");
+                CalcString.removeAllElements();
             } else
                 CalcString.add(((Button)view).getText().toString());
-
-            String Line = "";
-            if (CalcWasFunction)
-                Line += "f(x)=";
-            for (int i = 0; i < CalcString.size(); i++)
-                if (CalcString.get(i).equals("+/-"))
-                    Line += "-";
-                else
-                    Line += CalcString.get(i);
-            CalcTextView.setText(Line);
+         Paint();
         }
     };
 
