@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+
+    <!-- Text and help layout -->
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+            >
+
+        <!-- Text layout -->
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="0dp"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="5"
+                >
+            <!-- In text view -->
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:enabled="false"
+                    android:text=""
+                    android:id="@+id/in_text"
+                    />
+            <!-- Out text view -->
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:id="@+id/out_text"
+                    android:gravity="end|bottom"
+                    />
+        </LinearLayout>
+
+        <!-- Button help -->
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="0dp"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1"
+                >
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="help"
+                    android:id="@+id/button_help"
+                    />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Buttons layout -->
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="3"
+            >
+
+        <!-- 1 line layout -->
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                >
+
+            <!-- Button delete layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="←"
+                    android:id="@+id/button_delete"
+                    />
+
+            <!-- Button 7 layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="7"
+                    android:id="@+id/button_7"
+                    />
+
+            <!-- Button 8 layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="8"
+                    android:id="@+id/button_8"
+                    />
+
+            <!-- Button 9 layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="9"
+                    android:id="@+id/button_9"
+                    />
+
+            <!-- Button division layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="/"
+                    android:id="@+id/button_div"
+                    />
+
+        </LinearLayout>
+
+        <!-- 2 line layout -->
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                >
+            <!-- Button clear layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="C"
+                    android:id="@+id/button_clear"
+                    />
+
+            <!-- Button 4 layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="4"
+                    android:id="@+id/button_4"
+                    />
+
+            <!-- Button 5 layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="5"
+                    android:id="@+id/button_5"
+                    />
+
+            <!-- Button 6 layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="6"
+                    android:id="@+id/button_6"
+                    />
+
+            <!-- Button multiplication layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="*"
+                    android:id="@+id/button_mul"
+                    />
+
+        </LinearLayout>
+
+        <!-- 3 line layout -->
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                >
+
+            <!-- Button left bracket layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="("
+                    android:id="@+id/button_left_br"
+                    />
+
+            <!-- Button 1 layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:id="@+id/button_1"
+                    />
+
+            <!-- Button 2 layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="2"
+                    android:id="@+id/button_2"
+                    />
+
+            <!-- Button 3 layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="3"
+                    android:id="@+id/button_3"
+                    />
+
+            <!-- Button subtraction layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="-"
+                    android:id="@+id/button_sub"
+                    />
+
+        </LinearLayout>
+
+        <!-- 4 line layout -->
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                >
+
+            <!-- Button right bracket layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text=")"
+                    android:id="@+id/button_right_br"
+                    />
+
+            <!-- Button comma layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text=","
+                    android:id="@+id/button_comma"
+                    />
+
+            <!-- Button 0 layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:id="@+id/button_0"
+                    />
+
+            <!-- Button dot layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="."
+                    android:id="@+id/button_dot"
+                    />
+
+            <!-- Button addiction layout -->
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="+"
+                    android:id="@+id/button_add"
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Functions and constants layout -->
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="2"
+            >
+
+        <!-- Functions layout -->
+        <ScrollView android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                >
+
+            <LinearLayout android:orientation="vertical"
+                          android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                    >
+
+                <!-- Button sqr layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="sqr()"
+                        android:id="@+id/button_sqr"
+                        />
+
+                <!-- Button sqrt layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="sqrt()"
+                        android:id="@+id/button_sqrt"
+                        />
+
+                <!-- Button sin layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="sin()"
+                        android:id="@+id/button_sin"
+                        />
+
+                <!-- Button cos layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="cos()"
+                        android:id="@+id/button_cos"
+                        />
+
+                <!-- Button tg layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="tg()"
+                        android:id="@+id/button_tg"
+                        />
+
+                <!-- Button ctg layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="ctg()"
+                        android:id="@+id/button_ctg"
+                        />
+
+                <!-- Button asin layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="arcsin()"
+                        android:id="@+id/button_asin"
+                        />
+
+                <!-- Button acos layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="arccos()"
+                        android:id="@+id/button_acos"
+                        />
+
+                <!-- Button atg layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="arctg()"
+                        android:id="@+id/button_atg"
+                        />
+
+                <!-- Button actg layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="arcctg()"
+                        android:id="@+id/button_actg"
+                        />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!-- Constants layout -->
+        <ScrollView android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                >
+
+            <LinearLayout android:orientation="vertical"
+                          android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                    >
+
+                <!-- Button pi layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="π"
+                        android:id="@+id/button_pi"
+                        />
+
+                <!-- Button e layout -->
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="e"
+                        android:id="@+id/button_e"
+                        />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
+

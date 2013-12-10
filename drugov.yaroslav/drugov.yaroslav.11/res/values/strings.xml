@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">drugov.yaroslav.11</string>
+
+    <!-- Test 1 -->
+    <string name="q_1">q_1</string>
+    <string name="c_1">c_1</string>
+    <string name="ic1_1">ic1_1</string>
+    <string name="ic2_1">ic2_1</string>
+    <string name="ic3_1">ic3_1</string>
+
+    <!-- Test 2 -->
+    <string name="q_2">q_2</string>
+    <string name="c_2">c_2</string>
+    <string name="ic1_2">ic1_2</string>
+    <string name="ic2_2">ic2_2</string>
+    <string name="ic3_2">ic3_2</string>
+
+    <!-- Test 3 -->
+    <string name="q_3">q_3</string>
+    <string name="c_3">c_3</string>
+    <string name="ic1_3">ic1_3</string>
+    <string name="ic2_3">ic2_3</string>
+    <string name="ic3_3">ic3_3</string>
+
+    <!-- Test 4 -->
+    <string name="q_4">q_4</string>
+    <string name="c_4">c_4</string>
+    <string name="ic1_4">ic1_4</string>
+    <string name="ic2_4">ic2_4</string>
+    <string name="ic3_4">ic3_4</string>
+
+    <!-- Test 5 -->
+    <string name="q_5">q_5</string>
+    <string name="c_5">c_5</string>
+    <string name="ic1_5">ic1_5</string>
+    <string name="ic2_5">ic2_5</string>
+    <string name="ic3_5">ic3_5</string>
+
+</resources>
