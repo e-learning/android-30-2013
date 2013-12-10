@@ -17,6 +17,7 @@ public class MyActivity extends Activity {
     String s1;
     String s2;
     Bitmap bm;
+    int flag = 0/*, isO = 0*/;
     Parser P = new Parser();
 
     void BrezenhemeLine2(int x1, int y1, int x2, int y2)
@@ -57,6 +58,7 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.main);
+
         s = new String();
         s = " ";
         s2 = "";
@@ -65,6 +67,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view1) {
                 TextView t = (TextView) findViewById(R.id.editText);
+                flag = 1;
                 s+="0";
                 t.setText(s);
 
@@ -76,7 +79,12 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view2) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+=" - ";
+                if(flag == 1)
+                {
+                  flag = 0;
+                  //isO = 1;
+                  s+=" - ";
+                }
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -86,7 +94,12 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view2) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+=" + ";
+                if(flag == 1)
+                {
+                  flag = 0;
+                  //isO = 1;
+                  s+=" + ";
+                }
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -96,7 +109,12 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view2) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+=" * ";
+                if(flag == 1)
+                {
+                    flag = 0;
+                 //   isO = 1;
+                  s+=" * ";
+                }
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -106,7 +124,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view2) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+=" -";
+                s+="-";
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -126,7 +144,11 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view2) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+=" ) ";
+                if(flag == 1 && s != " ")
+                {
+                  s+=" ) ";
+                 flag = 1;
+                }
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -136,7 +158,11 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view2) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+=".";
+                if(flag == 1 && s != " ")
+                {
+                    flag = 0;
+                    s+=".";
+                }
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -146,7 +172,12 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view2) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+=" / ";
+                if(flag == 1)
+                {
+                    flag = 0;
+                    //isO = 1;
+                    s+=" / ";
+                }
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -157,6 +188,7 @@ public class MyActivity extends Activity {
             public void onClick(View view2) {
                 TextView t = (TextView) findViewById(R.id.editText);
                 s+="1";
+                flag = 1;
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -167,6 +199,7 @@ public class MyActivity extends Activity {
             public void onClick(View view3) {
                 TextView t = (TextView) findViewById(R.id.editText);
                 s+="2";
+                flag = 1;
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -177,6 +210,7 @@ public class MyActivity extends Activity {
                 public void onClick(View view4) {
                     TextView t = (TextView) findViewById(R.id.editText);
                     s+="3";
+                    flag = 1;
                     t.setText(s);
                     ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
                 }
@@ -187,6 +221,7 @@ public class MyActivity extends Activity {
                 public void onClick(View view5) {
                     TextView t = (TextView) findViewById(R.id.editText);
                     s+="4";
+                    flag = 1;
                     t.setText(s);
                     ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
                 }
@@ -197,6 +232,7 @@ public class MyActivity extends Activity {
                 public void onClick(View view6) {
                     TextView t = (TextView) findViewById(R.id.editText);
                     s+="5";
+                    flag = 1;
                     t.setText(s);
                     ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
                 }
@@ -207,6 +243,7 @@ public class MyActivity extends Activity {
                 public void onClick(View view7) {
                     TextView t = (TextView) findViewById(R.id.editText);
                     s+="6";
+                    flag = 1;
                     t.setText(s);
                     ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
                 }
@@ -218,6 +255,7 @@ public class MyActivity extends Activity {
                  public void onClick(View view8) {
                     TextView t = (TextView) findViewById(R.id.editText);
                     s+="7";
+                    flag = 1;
                     t.setText(s);
                     ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
                  }
@@ -228,6 +266,7 @@ public class MyActivity extends Activity {
                 public void onClick(View view) {
                     TextView t = (TextView) findViewById(R.id.editText);
                     s+="8";
+                    flag = 1;
                     t.setText(s);
                     ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
                 }
@@ -238,6 +277,7 @@ public class MyActivity extends Activity {
                 public void onClick(View view9) {
                     TextView t = (TextView) findViewById(R.id.editText);
                     s+="9";
+                    flag = 1;
                     t.setText(s);
                     ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
                 }
@@ -247,7 +287,8 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view9) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s=" ";
+                s = " ";
+                flag = 0;
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -302,6 +343,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view9) {
                 TextView t = (TextView) findViewById(R.id.editText);
+                flag = 1;
                 s+="X";
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
@@ -362,7 +404,7 @@ public class MyActivity extends Activity {
               if(s.charAt(0) == ' ')
                   s = P.Pars(s);
               else
-                  s = ' ' + P.Pars(s);
+                  s = P.Pars(' ' + s);
              s2 += s1 + " = " + s + "\n";
              t.setText(s1 + " = " + s);
         }
@@ -394,7 +436,7 @@ public class MyActivity extends Activity {
                     while(s1.indexOf('X') != -1)
                       s1 = s1.substring(0, s1.indexOf('X')) + Double.toString(j) + s1.substring(s1.indexOf('X') + 1, s1.length());
 
-                    s1 = P.Pars(s1);
+                    s1 = P.Pars(' ' + s1);
 
                     flag = 1;
                     try
