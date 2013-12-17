@@ -299,7 +299,11 @@ public class MyActivity extends Activity {
             public void onClick(View view9) {
                 TextView t = (TextView) findViewById(R.id.editText);
                 Random x = new Random();
-                s += Double.toString(x.nextDouble() * x.nextInt(5000));
+                if(flag == 0)
+                {
+                  flag = 1;
+                  s += Double.toString(x.nextDouble() * x.nextInt(5000));
+                }
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -327,12 +331,23 @@ public class MyActivity extends Activity {
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
         });
+        Button bI = (Button)findViewById(R.id.buttoninteg);
+        bI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view9) {
+                Intent i1 = new Intent();
+                i1.setClass(getApplicationContext(), Integral.class);
+                i1.putExtra("s", s);
+                startActivity(i1);
+                ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
+            }
+        });
         Button babout = (Button)findViewById(R.id.buttonabout);
         babout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view9) {
                 Intent i = new Intent();
-                i.setClass(getApplicationContext(), MyClass.class);
+                i.setClass(getApplicationContext(), About.class);
                 startActivity(i);
 
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
@@ -355,7 +370,8 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view9) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+="sin( ";
+                if(flag == 0)
+                   s+="sin( ";
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -365,7 +381,8 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view9) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+="cos( ";
+                if(flag == 0)
+                  s+="cos( ";
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -375,7 +392,8 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view9) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+="tg( ";
+                if(flag == 0)
+                  s+="tg( ";
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -385,7 +403,8 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view9) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+="ctg( ";
+                if(flag == 0)
+                  s+="ctg( ";
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -425,32 +444,34 @@ public class MyActivity extends Activity {
                     bm.setPixel(Disp.widthPixels / 2, (int)j, 0xff0000ff);
                 for(j = 0; j < Disp.widthPixels; j++)
                     bm.setPixel((int)j, Disp.heightPixels / 2, 0xff00ff00);
-                bm.setPixel(0, 0, 0xff0000ff);
-                int flag = 0;
-                int oldy = 0;
-                for(j = -1 * Disp.widthPixels / 2; j < Disp.widthPixels / 2; j += 1)
+                    bm.setPixel(0, 0, 0xff0000ff);
+                    int flag = 0;
+                    int oldy = 0;
+                if(s.indexOf('X') != -1)
                 {
-                    if (flag == 1)
-                      oldy = (int)Double.parseDouble(s1);
-                    s1 = s.substring(0, s.indexOf('X')) + Double.toString(j) + s.substring(s.indexOf('X') + 1, s.length());
-                    while(s1.indexOf('X') != -1)
-                      s1 = s1.substring(0, s1.indexOf('X')) + Double.toString(j) + s1.substring(s1.indexOf('X') + 1, s1.length());
-
-                    s1 = P.Pars(' ' + s1);
-
-                    flag = 1;
-                    try
+                    for(j = -1 * Disp.widthPixels / 2; j < Disp.widthPixels / 2; j += 1)
                     {
                         if (flag == 1)
-                           BrezenhemeLine2((int)((j - 1) * 10 + Disp.widthPixels / 2) ,(int)(oldy * -1 + Disp.heightPixels / 2), (int)(j * 10 + Disp.widthPixels / 2), (int)(Double.parseDouble(s1) * -1 + Disp.heightPixels / 2));
-                        //bm.setPixel(((int)j * 10 + Disp.widthPixels / 2 ), (int)(Double.parseDouble(s2)) * -1 + Disp.heightPixels / 2 , 0xff00ffff);
-                    }
-                    catch (Exception Ex)
-                    {
-                        //s1 = Ex.toString();
+                          oldy = (int)Double.parseDouble(s1);
+                        s1 = s.substring(0, s.indexOf('X')) + Double.toString(j) + s.substring(s.indexOf('X') + 1, s.length());
+                        while(s1.indexOf('X') != -1)
+                          s1 = s1.substring(0, s1.indexOf('X')) + Double.toString(j) + s1.substring(s1.indexOf('X') + 1, s1.length());
+
+                        s1 = P.Pars(' ' + s1);
+
+                        flag = 1;
+                        try
+                        {
+                            if (flag == 1)
+                               BrezenhemeLine2((int)((j - 1) * 10 + Disp.widthPixels / 2) ,(int)(oldy * -1 + Disp.heightPixels / 2), (int)(j * 10 + Disp.widthPixels / 2), (int)(Double.parseDouble(s1) * -1 + Disp.heightPixels / 2));
+                            //bm.setPixel(((int)j * 10 + Disp.widthPixels / 2 ), (int)(Double.parseDouble(s2)) * -1 + Disp.heightPixels / 2 , 0xff00ffff);
+                        }
+                        catch (Exception Ex)
+                        {
+                            //s1 = Ex.toString();
+                        }
                     }
                 }
-
                 t.setImageBitmap(bm);
                 t.setVisibility(View.VISIBLE);
                 t.setOnClickListener(new View.OnClickListener() {

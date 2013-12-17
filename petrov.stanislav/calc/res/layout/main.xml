@@ -193,8 +193,9 @@
             <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="ƒ"
-                    android:id="@+id/buttoninteg" android:layout_weight="4" android:textSize="20dp"/>
+                    android:text="∫"
+                    android:id="@+id/buttoninteg" android:layout_weight="4" android:textSize="20dp"
+                    />
             <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
