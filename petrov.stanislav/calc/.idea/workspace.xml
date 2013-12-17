@@ -28,7 +28,7 @@
     <ignored path="calc.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1384266233937" ignored="false" />
-    <file path="/fragment.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386685479125" ignored="false" />
+    <file path="/fragment.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387290825390" ignored="false" />
     <file path="/MyActivity.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386681484171" ignored="false" />
     <file path="/a.dummy" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1385649264203" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/calc/gen/com/example/calc/BuildConfig.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1384262781875" ignored="false" />
@@ -36,22 +36,31 @@
     <file path="/AndroidManifest.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1384868774078" ignored="false" />
     <file path="/MyClass.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1384873067875" ignored="false" />
     <file path="/Parser.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1384967687890" ignored="false" />
-    <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/.idea/workspace.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386686710265" ignored="false" />
+    <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/.idea/workspace.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386689512875" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/.idea/compiler.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386680337140" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/res/layout/main.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386680337546" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/res/values/strings.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386680337546" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/build.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386680337546" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/AndroidManifest.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386680337546" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/src/com/example/convas/MyActivity.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386681486390" ignored="false" />
-    <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/src/com/example/convas/Pictures.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386686419609" ignored="false" />
-    <file path="/Pictures.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386681429953" ignored="false" />
+    <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/src/com/example/convas/Pictures.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386688012000" ignored="false" />
+    <file path="/Pictures.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387291089875" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/.idea/misc.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386681495812" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/potock/src/com/company/MyThread.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386685358265" ignored="false" />
-    <file path="/MyThread.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386686338937" ignored="false" />
+    <file path="/MyThread.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387291152578" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/potock/src/com/company/Main.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386685355187" ignored="false" />
     <file path="/Main.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386685354218" ignored="false" />
-    <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/src/com/example/convas/MyThread.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386686343812" ignored="false" />
+    <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/src/com/example/convas/MyThread.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386688514109" ignored="false" />
     <file path="Z:/ss/android-30-2013/petrov.stanislav/convas/src/com/example/convas/MyThead.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1386685521453" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyGame/AndroidManifest.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387287303468" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyGame/res/values/strings.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387287303468" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyGame/src/com/example/MyGame/MyActivity.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387287303828" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyGame/build.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387287303828" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyGame/res/layout/main.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387287303828" ignored="false" />
+    <file path="$PROJECT_DIR$/../convas/.idea/workspace.xml" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387291459437" ignored="false" />
+    <file path="$PROJECT_DIR$/../MyGame/src/com/example/MyGame/Sensor.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387290965406" ignored="false" />
+    <file path="$PROJECT_DIR$/../convas/src/com/example/convas/Pictures.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387291089875" ignored="false" />
+    <file path="$PROJECT_DIR$/../convas/src/com/example/convas/MyThread.java" changelist="621491e2-a9fa-44cf-98fc-11449a948231" time="1387291152578" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,6 +263,36 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/calc/Parser.java" line="248" class="com.example.calc.Parser" package="com.example.calc">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/calc/MyActivity.java" line="455" class="com.example.calc.MyActivity$30" package="com.example.calc">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -279,7 +318,7 @@
       <file leaf-file-name="mylayaut.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/mylayaut.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="38" selection-start="593" selection-end="593" vertical-scroll-proportion="-4.42">
+            <state line="13" column="38" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -306,10 +345,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/calc/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="445" column="0" selection-start="17411" selection-end="17411" vertical-scroll-proportion="0.0">
+            <state line="176" column="84" selection-start="5827" selection-end="5827" vertical-scroll-proportion="0.12320917">
               <folding />
             </state>
           </provider>
@@ -333,10 +372,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/calc/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="120" selection-start="7572" selection-end="7572" vertical-scroll-proportion="0.38106236">
+            <state line="248" column="0" selection-start="8803" selection-end="8803" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -375,9 +414,9 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/mylayaut.xml" />
         <option value="$PROJECT_DIR$/src/com/example/calc/MyClass.java" />
-        <option value="$PROJECT_DIR$/src/com/example/calc/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/calc/Parser.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/calc/MyActivity.java" />
       </list>
     </option>
   </component>
@@ -443,13 +482,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="09dfb10a" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="09e04ed1" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="111" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="aaa" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
@@ -490,6 +529,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -515,19 +567,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -585,7 +624,7 @@
       <option name="ACTIVITY_CLASS" value="com.example.calc.MyActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="false" />
       <option name="COMMAND_LINE" value="" />
@@ -658,7 +697,6 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3524862" sideWeight="0.6705608" order="3" side_tool="false" content_ui="tabs" />
@@ -676,6 +714,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1905016" sideWeight="0.8" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31590182" sideWeight="0.8" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.019210245" sideWeight="0.8" order="2" side_tool="false" content_ui="combo" />
@@ -798,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/calc/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="445" column="0" selection-start="17411" selection-end="17411" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="207" column="40" selection-start="11648" selection-end="11648" vertical-scroll-proportion="0.0">
@@ -824,7 +856,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/mylayaut.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="593" selection-end="593" vertical-scroll-proportion="-4.42">
+        <state line="13" column="38" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -848,7 +880,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/calc/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="120" selection-start="7572" selection-end="7572" vertical-scroll-proportion="0.38106236">
+        <state line="248" column="0" selection-start="8803" selection-end="8803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/calc/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="84" selection-start="5827" selection-end="5827" vertical-scroll-proportion="0.12320917">
           <folding />
         </state>
       </provider>

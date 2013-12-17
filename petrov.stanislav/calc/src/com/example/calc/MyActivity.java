@@ -134,7 +134,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view2) {
                 TextView t = (TextView) findViewById(R.id.editText);
-                s+=" ( ";
+                s+="( ";
                 t.setText(s);
                 ///Toast.makeText(MyActivity.this, "Hello", Toast.LENGTH_SHORT).show();
             }
@@ -146,7 +146,7 @@ public class MyActivity extends Activity {
                 TextView t = (TextView) findViewById(R.id.editText);
                 if(flag == 1 && s != " ")
                 {
-                  s+=" ) ";
+                  s+=" )";
                  flag = 1;
                 }
                 t.setText(s);
