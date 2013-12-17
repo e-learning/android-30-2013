@@ -1,36 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e07543b7-8bd1-41a5-be96-46a682f1dbe4" name="Default" comment="" />
-    <ignored path="drugov.yaroslav.12.iws" />
+    <list default="true" id="8f605ca4-5570-4430-be23-5a699cc859e9" name="Default" comment="" />
+    <ignored path="drugov.yaroslav.14.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/res/layout/main.xml" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1386680298328" ignored="false" />
-    <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1386680298328" ignored="false" />
-    <file path="/Picture.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387287373000" ignored="false" />
-    <file path="/MyActivity.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387293697781" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.11/.idea/workspace.xml" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1386689645468" ignored="false" />
-    <file path="/fragment.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387297344031" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.13/src/Person.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1386684927421" ignored="false" />
-    <file path="/Person.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1386684925609" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.13/src/com/company/Main.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1386684957765" ignored="false" />
-    <file path="/Main.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1386684953671" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.13/src/com/company/Person.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1386684977593" ignored="false" />
-    <file path="/MyThread.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387283027328" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/example/drugov_yaroslav_12/BuildConfig.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387284096796" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.14/AndroidManifest.xml" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387286891140" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.14/src/com/example/drugov_yaroslav_14/MyActivity.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387293699937" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.14/build.xml" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387286891140" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.14/res/layout/main.xml" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387286891140" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.14/res/values/strings.xml" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387286891140" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.14/src/com/example/drugov_yaroslav_14/Updater.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387293338468" ignored="false" />
-    <file path="/Updater.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387289632718" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.14/src/com/example/drugov_yaroslav_14/Picture.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387288121062" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.14/src/com/example/drugov_yaroslav_14/GameField.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387301929406" ignored="false" />
-    <file path="/GameField.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387301724546" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.14/src/com/example/drugov_yaroslav_14/Score.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387293418953" ignored="false" />
-    <file path="$PROJECT_DIR$/../drugov.yaroslav.14/src/com/example/drugov_yaroslav_14/Orientation.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387293338468" ignored="false" />
-    <file path="/Orientation.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387291987250" ignored="false" />
-    <file path="/Score.java" changelist="e07543b7-8bd1-41a5-be96-46a682f1dbe4" time="1387292832437" ignored="false" />
+    <file path="$PROJECT_DIR$/res/layout/main.xml" changelist="8f605ca4-5570-4430-be23-5a699cc859e9" time="1387286891140" ignored="false" />
+    <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="8f605ca4-5570-4430-be23-5a699cc859e9" time="1387286891140" ignored="false" />
+    <file path="/Updater.java" changelist="8f605ca4-5570-4430-be23-5a699cc859e9" time="1387289632718" ignored="false" />
+    <file path="/Picture.java" changelist="8f605ca4-5570-4430-be23-5a699cc859e9" time="1387287373000" ignored="false" />
+    <file path="/GameField.java" changelist="8f605ca4-5570-4430-be23-5a699cc859e9" time="1387301724546" ignored="false" />
+    <file path="/Orientation.java" changelist="8f605ca4-5570-4430-be23-5a699cc859e9" time="1387291987250" ignored="false" />
+    <file path="/Score.java" changelist="8f605ca4-5570-4430-be23-5a699cc859e9" time="1387292832437" ignored="false" />
+    <file path="/MyActivity.java" changelist="8f605ca4-5570-4430-be23-5a699cc859e9" time="1387293697781" ignored="false" />
+    <file path="/fragment.java" changelist="8f605ca4-5570-4430-be23-5a699cc859e9" time="1387297344031" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,33 +69,55 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="drugov.yaroslav.12" />
+    <favorites_list name="drugov.yaroslav.14" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Picture.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/Picture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="1388" selection-end="1465" vertical-scroll-proportion="0.50790066">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyThread.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="14" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyActivity.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="55" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+            <state line="5" column="26" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Updater.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/Updater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="20" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameField.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/GameField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="133" column="42" selection-start="4280" selection-end="4280" vertical-scroll-proportion="0.2181501">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Score.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/Score.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="22" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Orientation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/Orientation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="25" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,9 +132,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/Picture.java" />
-        <option value="$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/Picture.java" />
+        <option value="$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/Updater.java" />
+        <option value="$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/Orientation.java" />
+        <option value="$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/Score.java" />
+        <option value="$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/GameField.java" />
       </list>
     </option>
   </component>
@@ -172,27 +179,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drugov.yaroslav.12" />
+              <option name="myItemId" value="drugov.yaroslav.14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drugov.yaroslav.12" />
+              <option name="myItemId" value="drugov.yaroslav.14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drugov.yaroslav.12" />
+              <option name="myItemId" value="drugov.yaroslav.14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drugov.yaroslav.12" />
+              <option name="myItemId" value="drugov.yaroslav.14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drugov.yaroslav.12" />
+              <option name="myItemId" value="drugov.yaroslav.14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -200,7 +207,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drugov_yaroslav_12" />
+              <option name="myItemId" value="drugov_yaroslav_14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,21 +218,15 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="Z:/sss" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Android Application.drugov.yaroslav.12">
+  <component name="RunManager" selected="Android Application.drugov.yaroslav.14">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -258,19 +259,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -296,6 +284,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -348,9 +349,9 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="drugov.yaroslav.12" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="drugov.yaroslav.12" />
-      <option name="ACTIVITY_CLASS" value="com.example.drugov_yaroslav_12.MyActivity" />
+    <configuration default="false" name="drugov.yaroslav.14" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="drugov.yaroslav.14" />
+      <option name="ACTIVITY_CLASS" value="com.example.drugov_yaroslav_14.MyActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
@@ -367,7 +368,7 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android Application.drugov.yaroslav.12" />
+      <item index="0" class="java.lang.String" itemvalue="Android Application.drugov.yaroslav.14" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -375,56 +376,39 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e07543b7-8bd1-41a5-be96-46a682f1dbe4" name="Default" comment="" />
-      <created>1386680284562</created>
-      <updated>1386680284562</updated>
+      <changelist id="8f605ca4-5570-4430-be23-5a699cc859e9" name="Default" comment="" />
+      <created>1387286877343</created>
+      <updated>1387286877343</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="26" width="1928" height="1058" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30309498" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -492,106 +476,45 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/Picture.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/Score.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="24" column="22" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/Orientation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+        <state line="27" column="25" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/Updater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="20" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+        <state line="5" column="26" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/Picture.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_14/GameField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="133" column="42" selection-start="4280" selection-end="4280" vertical-scroll-proportion="0.2181501">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="9" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="55" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/drugov_yaroslav_12/Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1388" selection-end="1465" vertical-scroll-proportion="0.50790066">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>Android 4.3 Platform</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
 
