@@ -29,14 +29,22 @@ public class MyThread extends Thread {
             picture.Clear();
 
             x += vx;
-            x = Math.max(r, Math.min(picture.getScreenWidth() - r, x));
-            y += vy;
-            y = Math.max(r, Math.min(picture.getScreenHeight() - r, y));
-
             if (x - r <= 0 || x + r >= picture.getScreenWidth())
                 vx = -vx;
+            if (x < r)
+                x += 2 * (r - x);
+            else if (x > picture.getScreenWidth() - r)
+                x -= 2 * (x - (picture.getScreenWidth() - r));
+            //x = Math.max(r, Math.min(picture.getScreenWidth() - r, x));
+
+            y += vy;
             if (y - r <= 0 || y + r >= picture.getScreenHeight())
                 vy = -vy;
+            if (y < r)
+                y += 2 * (r - y);
+            else if (y > picture.getScreenHeight() - r)
+                y -= 2 * (y - (picture.getScreenHeight() - r));
+            //y = Math.max(r, Math.min(picture.getScreenHeight() - r, y));
 
             picture.SetCircle(x, y, r);
             picture.Redraw();
