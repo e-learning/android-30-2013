@@ -113,7 +113,7 @@
                     android:layout_height="wrap_content"
                     android:text="h"
                     android:id="@+id/button14" android:layout_column="4" android:layout_weight="4"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp" android:visibility="gone"/>
         </TableRow>
         <TableRow
                 android:layout_width="fill_parent"
@@ -145,7 +145,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="H"
-                    android:id="@+id/button18" android:layout_weight="4" android:textSize="20dp"/>
+                    android:id="@+id/button18" android:layout_weight="4" android:textSize="20dp"
+                    android:visibility="gone"/>
         </TableRow>
         <TableRow
                 android:layout_width="fill_parent"
@@ -175,7 +176,7 @@
                     android:layout_height="wrap_content"
                     android:text="h"
                     android:id="@+id/button17" android:layout_column="4" android:layout_weight="4"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp" android:visibility="gone"/>
         </TableRow>
         <TableRow
                 android:layout_width="fill_parent"
@@ -206,7 +207,7 @@
                     android:layout_height="wrap_content"
                     android:text="h"
                     android:id="@+id/button16" android:layout_column="4" android:layout_weight="4"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp" android:visibility="gone"/>
         </TableRow>
         <ImageButton
                 android:layout_width="fill_parent"
